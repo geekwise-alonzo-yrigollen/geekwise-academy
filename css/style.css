@@ -45,10 +45,7 @@ footer{
     height: 23rem;
     width:100%;
 }
-.bottom{
-    display: inline-block;
-    
-}
+
 h1{
     color:white;
     margin:0 auto;
@@ -67,10 +64,69 @@ h2{
     
 }
 
-
-
-
-
+.bottom{
+    margin:0 auto;
+    display:block;
+    width:80%;
+    border-top: solid white; 
+    
+    
+}
+.article{
+    display:inline-block;
+    margin:0 auto;
+    height: 8rem;
+    width:calc(80%/3);
+  
+}
+#one{
+    margin:0 auto;
+    color:white;
+    transform:translateY(5rem);
+}
+#first{
+    display:block;
+    margin:0 auto;
+    height:8rem;
+    width:6rem;
+    background-image: url("http://i.imgur.com/oKDYyMm.png");
+    background-repeat: no-repeat;
+    transform:translateY(10%);
+    text-align: center;
+    
+}
+#two{
+    margin:0 auto;
+    color:white;
+    transform:translateY(5rem);
+}
+#second{
+    display:block;
+    margin:0 auto;
+    height:8rem;
+    width:6rem;
+    background-image: url("http://i.imgur.com/C1LTRQ7.png");
+    background-repeat: no-repeat;
+    transform:translateY(10%);
+    text-align: center;
+    
+}
+#three{
+    margin:0 auto;
+    color:white;
+    transform:translateY(5rem);
+}
+#third{
+    display:block;
+    margin:0 auto;
+    height:8rem;
+    width:6rem;
+    background-image: url("http://i.imgur.com/iBMmTtr.png");
+    background-repeat: no-repeat;
+    transform:translateY(10%);
+    text-align: center;
+    
+}
 
 
 
