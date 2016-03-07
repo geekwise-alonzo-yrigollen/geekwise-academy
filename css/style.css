@@ -16,14 +16,12 @@ body{
 header{
     margin:0 auto;
     width:100%;
-    height: 35rem;
-    background-image: url("http://i.imgur.com/OpvA4Rr.jpg");
-    background-repeat: no-repeat;
+    height: 35rem;  
     display:block;
-    text-align: center;
     background-color:white;
-    
+ 
 }
+
 ul{
     list-style-type: none;
     display:block;
@@ -88,13 +86,15 @@ h2{
 #one{
     margin:0 auto;
     color:white;
+    font-size:1rem;
+    float:left;
     transform:translateY(5rem);
 }
 #first{
     display:block;
     margin:0 auto;
     height:8rem;
-    width:6rem;
+    border-right: solid white;
     background-image: url("http://i.imgur.com/oKDYyMm.png");
     background-repeat: no-repeat;
     transform:translateY(10%);
@@ -102,19 +102,24 @@ h2{
     
 }
 #two{
-    margin:0 auto;
+    margin-right:1rem;
+    width:4rem;
     color:white;
+    font-size:1rem;
+    padding:7px;
     transform:translateY(5rem);
+   
 }
 #second{
     display:block;
     margin:0 auto;
     height:8rem;
-    width:6rem;
+    width:9rem;
+    border-right: solid white;
     background-image: url("http://i.imgur.com/C1LTRQ7.png");
     background-repeat: no-repeat;
-    transform:translateY(10%);
-    text-align: center;
+    transform:translateY(-4rem);
+    
     
 }
 #three{
@@ -129,14 +134,10 @@ h2{
     width:6rem;
     background-image: url("http://i.imgur.com/iBMmTtr.png");
     background-repeat: no-repeat;
-    transform:translateY(10%);
+    transform:translateY(-5rem);
     text-align: center;
     
 }
-
-
-
-
 
 
 @media only screen
@@ -157,7 +158,7 @@ h2{
             transform: translate(520px,20px);
 
         }
-	    {
+	    img{
                 
         width:calc(97%/2);
         height:auto; 
@@ -171,4 +172,11 @@ h2{
         height:auto; 
         transform:translateY(calc 3rem);
     }
+	    footer{
+                
+        width:calc(97%/2);
+        height:auto; 
+        transform:translateY(calc 3rem);
+    }
+       
 }
