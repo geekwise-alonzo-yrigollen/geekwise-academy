@@ -88,13 +88,15 @@ h2{
 #one{
     margin:0 auto;
     color:white;
+    font-size:1rem;
+    float:left;
     transform:translateY(5rem);
 }
 #first{
     display:block;
     margin:0 auto;
     height:8rem;
-    width:6rem;
+    border-right: solid white;
     background-image: url("http://i.imgur.com/oKDYyMm.png");
     background-repeat: no-repeat;
     transform:translateY(10%);
@@ -102,19 +104,24 @@ h2{
     
 }
 #two{
-    margin:0 auto;
+    margin-right:1rem;
+    width:4rem;
     color:white;
+    font-size:1rem;
+    padding:7px;
     transform:translateY(5rem);
+   
 }
 #second{
     display:block;
     margin:0 auto;
     height:8rem;
-    width:6rem;
+    width:9rem;
+    border-right: solid white;
     background-image: url("http://i.imgur.com/C1LTRQ7.png");
     background-repeat: no-repeat;
-    transform:translateY(10%);
-    text-align: center;
+    transform:translateY(-4rem);
+    
     
 }
 #three{
@@ -129,14 +136,10 @@ h2{
     width:6rem;
     background-image: url("http://i.imgur.com/iBMmTtr.png");
     background-repeat: no-repeat;
-    transform:translateY(10%);
+    transform:translateY(-5rem);
     text-align: center;
     
 }
-
-
-
-
 
 
 @media only screen
