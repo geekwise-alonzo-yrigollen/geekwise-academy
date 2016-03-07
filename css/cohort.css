@@ -58,7 +58,11 @@ a:hover{
 }
 
 span > img{
+    background-repeat: no-repeat;
     float:right;
+    width:20rem;
+
+    
 }
 
 
