@@ -52,7 +52,7 @@ a:hover{
     transition: background 2s;
     
 }
-#active{
+.active{
     height:2rem;
     background-color:#f9da0c;
 }
