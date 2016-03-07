@@ -56,3 +56,27 @@ a:hover{
     height:2rem;
     background-color:#f9da0c;
 }
+
+span > img{
+    background-repeat: no-repeat;
+    float:right;
+    width:20rem;
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
