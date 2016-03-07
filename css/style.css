@@ -21,18 +21,26 @@ header{
     background-color:white;
  
 }
+nav{
+    
+    height: 4rem;
+    display:block;
+    margin:0 auto;
+    
+}
 
 ul{
     list-style-type: none;
     display:block;
     margin:0 auto;
+    font-size: 4rem
     
 }
 li{
     margin:0 auto;
     display:inline-block;
-    font-size: 1rem;
-    padding:4px
+    font-size: 2rem;
+    padding:6px
 }
 a{
     color:black;
@@ -40,8 +48,13 @@ a{
 }
 a:hover{
     color:firebrick;
-    background-color:gold;
+    background-color:#f9da0c;
+    transition: background 2s;
     
+}
+#active{
+    height:2rem;
+    background-color:#f9da0c;
 }
 footer{
     display:block;
@@ -166,13 +179,13 @@ h2{
     }
         
 
-	    footer h1 bottom first on second two third three{
+	    footer h1 bottom first one second two third three{
                 
         width:calc(97%/2);
         height:auto; 
         transform:translateY(calc 3rem);
     }
-	    footer{
+	    footer h1 bottom first one second two third three{
                 
         width:calc(97%/2);
         height:auto; 
