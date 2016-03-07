@@ -16,7 +16,7 @@ body{
 header{
     margin:0 auto;
     width:100%;
-    height: 35rem;  
+    height: 18rem;  
     display:block;
     background-color:white;
  
@@ -56,23 +56,14 @@ a:hover{
     height:2rem;
     background-color:#f9da0c;
 }
+main{
+    height: 80rem;
+    width:100rem;
+    background-color:firebrick;
+}
 
 
 
 
 
 
-
-
-
-
-
-
-
-/*
-span{
-    margin:0 auto;
-    width:4%;
-    height:4%;
-    
-}*/
