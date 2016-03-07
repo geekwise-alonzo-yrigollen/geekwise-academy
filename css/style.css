@@ -139,3 +139,36 @@ h2{
 
 
 
+@media only screen
+    and (min-width:768px) and (max-width:830px){
+        {margin:0 8px;}
+        body{
+            width:calc(100%/.2);
+        }
+        }
+        
+        
+        }
+        
+        header{
+            
+            max-width:calc(100%/1.3px);
+            height:auto;
+            transform: translate(520px,20px);
+
+        }
+	    nav{
+                
+        width:calc(97%/2);
+        height:auto; 
+        transform:translateY(calc 3rem);
+    }
+        
+
+	    footer{
+                
+        width:calc(97%/2);
+        height:auto; 
+        transform:translateY(calc 3rem);
+    }
+}
