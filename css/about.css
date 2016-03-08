@@ -92,21 +92,8 @@ main{
 section{
     display:block;
     margin:0 auto;
-    width:100%;
+    width:calc(100%/2);
     
-}
-
-#columnLeft{
-    width:calc(100%/2);
-    float:left;
-    display:inline-block;
-}
-
-#columnRight{
-    width:0 auto;
-    width:calc(100%/2);
-    float:left;
-    display:inline-block;
 }
 
 
@@ -115,7 +102,7 @@ section{
 
 h2{
     color:white;
-    font-size:3rem;
+    font-size:2rem;
 }
 p{
     margin:0 auto;
@@ -129,16 +116,6 @@ p{
     color:white;
     font-size: 1.5rem
 } 
-footer{
-    margin:0 auto;
-    width:100%;
-    height:4rem;
-    display:block;
-    background-color:#f9da0c;
-}
-em{
-    color:firebrick;
-}
 
 @media only screen
     and (min-width:768px) and (max-width:830px){
