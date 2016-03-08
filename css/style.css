@@ -56,6 +56,11 @@ a:hover{
     height:2rem;
     background-color:#f9da0c;
 }
+img{
+    height: 31rem;
+    margin:0 auto;
+    
+}
 footer{
     display:block;
     margin:0 auto;
@@ -151,7 +156,83 @@ h2{
     float:left;
     
 }
+/*
+@media only screen and (max-width:1356px){
+    .menu{visibility: hidden;
+    display: none;
+    }
+}
+@media only screen and (max-width:1021px){
+    
+    .unorder{
+        margin-left:300px;
+    }
+    .menu{visibility: hidden;
+        display: none;
+    }
+}
+@media only screen and (max-width:900px){
 
+    .menu{visibility: visible
+    }
+    nav{
+        visibility: visible;
+        color: gray;
+  
+    }
+
+    .unorder{
+    width: auto;
+    height: auto;
+    font-size: 28px;
+    border: lightgrey solid .1rem;
+    border-radius: .5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    visibility: visible;
+        
+    }
+    
+    li{
+        visibility: hidden;
+    }
+    .unorder{
+        margin-left: 250px;
+    }
+}
+@media only screen and (max-width:600px){
+    .lines{
+        margin-left:170px;
+    }
+    
+}
+@media only screen and (max-width:480px){
+    img{
+        width:100%;
+        height: auto;
+    }
+    
+    footer{
+        margin-left: 70px;
+        width: 10%;
+        height: auto;
+        
+    }
+    .article{
+      visibility: hidden;
+    }
+}
+*/
+
+
+
+
+
+
+
+
+
+old media below
 
 @media only screen
     and (min-width:768px) and (max-width:830px){
@@ -177,6 +258,16 @@ h2{
         height:auto; 
         transform:translateY(calc 3rem);
     }
+@media only screen and (max-width:551){
+    img{display:none;
+
+    }
+    float:left;
+    visibility: hidden;
+    opacity:40%;
+    nav{display:none;
+    visibility: hidden;}
+}
         
 
 	    footer h1 bottom first one second two third three{
@@ -192,4 +283,4 @@ h2{
         transform:translateY(calc 3rem);
     }
        
-}
+
