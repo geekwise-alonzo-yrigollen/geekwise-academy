@@ -28,11 +28,7 @@ nav{
     margin:0 auto;
     
 }
-.fa fa-bars{
-    margin:0 auto;
-    height:9px;
-    width:9px;
-}
+
 
 ul{
     list-style-type: none;
@@ -162,6 +158,32 @@ h2{
     float:left;
     
 }
+
+
+/*
+.fa fa-bars{
+    margin:0 auto;
+    height:9px;
+    width:9px;
+}
+*/
+/*
+.menu{
+    margin:0 auto;
+    width:10rem;
+    float:right;
+    background-color:red;
+    visibility: hidden;
+}
+*/
+
+
+
+
+
+
+
+
 /*
 @media only screen and (max-width:1356px){
     .menu{visibility: hidden;
