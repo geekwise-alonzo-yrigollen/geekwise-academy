@@ -191,14 +191,14 @@ h2{
         
 
 	    footer h1 bottom first one second two third three{
-                
+               
         width:calc(97%/2);
         height:auto; 
         transform:translateY(calc 3rem);
     }
 	    footer h1 bottom first one second two third three{
-                
-        width:calc(97%/2);
+            }
+        {width:calc(97%/2);
         height:auto; 
         transform:translateY(calc 3rem);
     }
