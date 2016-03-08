@@ -20,7 +20,9 @@ header{
     height: 18rem;  
     display:block;
     background-color:white;
- 
+    background-image: url("http://i.imgur.com/OpvA4Rr.jpg");
+    background-repeat: no-repeat;
+    
 }
 nav{
     
@@ -49,13 +51,20 @@ a{
 }
 a:hover{
     color:firebrick;
-    background-color:#f9da0c;
+/*    background-color:#f9da0c;*/
     transition: background 2s;
     
 }
 .active{
     height:2rem;
     background-color:#f9da0c;
+}
+#aboutImage{
+    margin:0 auto;
+    width:30rem;
+    height:25rem;
+    float: left;
+    
 }
 main{
     height: 80rem;
