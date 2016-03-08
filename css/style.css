@@ -28,6 +28,11 @@ nav{
     margin:0 auto;
     
 }
+.fa fa-bars{
+    margin:0 auto;
+    height:9px;
+    width:9px;
+}
 
 ul{
     list-style-type: none;
@@ -133,6 +138,7 @@ h2{
     margin:0 auto;
     height:8rem;
     width:9rem;
+    border-right: solid white;
     background-image: url("http://i.imgur.com/C1LTRQ7.png");
     background-repeat: no-repeat;
     transform:translateY(-4rem);
@@ -146,10 +152,9 @@ h2{
 }
 #third{
     display:block;
-    margin-left:3rem;
+    margin-left:4rem;
     height:8rem;
     width:18rem;
-    border-left: solid white;
     background-image: url("http://i.imgur.com/iBMmTtr.png");
     background-repeat: no-repeat;
     transform:translateY(3rem);
