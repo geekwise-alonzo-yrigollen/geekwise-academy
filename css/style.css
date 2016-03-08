@@ -149,6 +149,8 @@ h2{
     margin:0 auto;
     color:white;
     transform:translateY(5rem);
+    float: left;
+    font-size:1rem;
 }
 #third{
     display:block;
