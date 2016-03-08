@@ -9,17 +9,42 @@ body{
     margin:0;
     width:100%;
     height: 100%;
-    background-color:firebrick;
+    background-color:snow;
     text-align:center;
     font-family: sans-serif;
+   
 }
 header{
     margin:0 auto;
     width:100%;
-    height: 6rem;  
+    height: 6.5rem;  
     display:block;
-    background-color:white;
+    background-color:firebrick;
  
+}
+main{
+    margin:0 auto;
+    width:100%;
+    height: 100%;
+    display:block;
+    background-image: url("https://i.ytimg.com/vi/oAjv_zrsznQ/maxresdefault.jpg");
+    background-repeat: no-repeat;
+        
+}
+#geekwise{
+    margin:0 auto;
+    display:block;
+    width:45rem;
+    height: 15rem;
+
+}
+#acad{
+    padding:54px;
+    display:block;
+    margin:1%;
+    width:35rem;
+    height: 5rem;
+
 }
 #logo{
     display:block;
@@ -54,7 +79,7 @@ li{
     padding:6px
 }
 a{
-    color:black;
+    color:white;
     text-decoration: none;
 }
 a:hover{
