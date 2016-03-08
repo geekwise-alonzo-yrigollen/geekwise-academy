@@ -66,6 +66,15 @@ a:hover{
     float: left;
     
 }
+
+h1{
+    margin:0 auto;
+    float:right;
+    font-size: 3em;
+    width:33rem;
+    transform:translateY(9.5rem);
+}
+
 main{
     height: 80rem;
     width:100rem;
