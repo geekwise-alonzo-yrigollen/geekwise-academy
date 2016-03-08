@@ -81,7 +81,22 @@ main{
     background-color:firebrick;
 }
 
-
+section{
+    display:block;
+    margin:0 auto;
+    width:calc(100%/2);
+    
+}
+h2{
+    color:white;
+    font-size:2rem;
+}
+p{
+    margin:0 auto;
+    display:block;
+    color:white;
+    font-size: 1.5rem
+}
 
 
 
