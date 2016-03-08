@@ -55,9 +55,16 @@ a:hover{
     transition: background 2s;
     
 }
-.active{
-    height:2rem;
+#active > a{
+    display:block;
+    height:4rem;
+    width:7.5rem;
     background-color:#f9da0c;
+    margin-left: 53rem;
+    transform:translateY(12rem);
+    font-size: 2rem;
+    color:white;
+ 
 }
 #aboutImage{
     margin:0 auto;
@@ -72,7 +79,7 @@ h1{
     float:right;
     font-size: 3em;
     width:33rem;
-    transform:translateY(9.5rem);
+    transform:translateY(7.5rem);
 }
 
 main{
