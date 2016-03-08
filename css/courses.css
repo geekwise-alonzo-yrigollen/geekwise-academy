@@ -22,8 +22,16 @@ header{
     background-color:firebrick;
  
 }
+h1{
+    margin:0 auto;
+    width:48rem;
+    padding:.4%;
+    float:left;
+    color:white;
+    transform:translateY(11rem);
+}
 p{
-    font-size: 3rem;
+    font-size: 1.7rem;
 }
 nav{
     
