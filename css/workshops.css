@@ -13,6 +13,7 @@ body{
     text-align:center;
     font-family: sans-serif;
 }
+
 header{
     margin:0 auto;
     width:100%;
@@ -21,6 +22,7 @@ header{
     background-color:firebrick;
  
 }
+
 nav{
     
     height: 5rem;
@@ -36,40 +38,71 @@ ul{
     font-size: 4rem
     
 }
+
 li{
     margin:0 auto;
     display:inline-block;
     font-size: 2rem;
     padding:6px
 }
+
 a{
     color:white;
     text-decoration: none;
 }
+
 a:hover{
     color:firebrick;
     background-color:#f9da0c;
     transition: background 2s;
     
 }
+
 .active{
     height:2rem;
     background-color:#f9da0c;
 }
+
 main{
     display:block;
     margin:0 auto;
     
 }
+
 section{
     display:block;
     float:left;
 }
+
 .textBottom{
     display:block;
     float:left;
 }
-
+.button{
+    margin:0 auto;
+    display:block;
+    width:28rem;
+    height: 4rem;
+    padding:2%;
+    line-height:3.3rem;
+    font-size: 2rem;
+    border-radius: 19%;
+    background-color:#f9da0c;
+}
+.button:hover{
+    border: solid .05em firebrick;
+    background-color:white;
+    transition: background 1.3s;
+}
+.button > a{
+    color:firebrick;
+}
+.button > a:hover{
+    background-color:firebrick;
+    color:#f9da0c;
+    border-radius: 19%;
+    transition: background 1.3s;
+}
 
 
 
