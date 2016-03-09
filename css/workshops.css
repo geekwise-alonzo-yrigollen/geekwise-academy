@@ -118,12 +118,24 @@ main{
 }
 
 .h2{
-    
+    padding:none;
+    text-transform: uppercase;
     margin:0 auto;
     display:block;
     float:left;
     font-size: 1.5rem
 }
+
+h3{
+    
+    margin:1%;;
+    display:block;
+    float:left;
+    font-size: .8rem
+}
+
+
+
 
 .paragraphs{
     
@@ -135,7 +147,7 @@ main{
 
 section{
     line-height: 2.3rem;
-    display:block;
+    display:inline;
    
 }
 
@@ -147,6 +159,7 @@ section{
 }
 
 
+/*
 .button{
     margin:0 auto;
     display:block;
@@ -183,6 +196,7 @@ section{
     border-radius: 19%;
     transition: background 1.3s;
 }
+*/
 
 #owl{
     margin:0 auto;
