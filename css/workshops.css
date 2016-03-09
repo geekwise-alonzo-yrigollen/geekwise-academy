@@ -100,6 +100,10 @@ main{
     margin:0 auto;
     
 }
+text{
+    margin:0 auto;
+    display:block;
+}
 
 section{
     display:block;
