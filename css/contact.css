@@ -46,7 +46,7 @@ main{
     height: 5rem;
 
 }
-#logo{
+.logo{
     display:block;
     margin:1%;
     width:35rem;

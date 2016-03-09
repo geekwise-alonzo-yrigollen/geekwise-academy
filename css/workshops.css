@@ -23,11 +23,23 @@ header{
  
 }
 
+.logo{
+    
+    display:block;
+    margin:1rem;
+    padding-left:25rem;
+    width:15rem;
+    height: 5rem;
+    float: left;
+    
+}
+
 nav{
     
     height: 5rem;
     display:block;
     margin:0 auto;
+    text-align: left;
     
 }
 
@@ -43,7 +55,7 @@ li{
     margin:0 auto;
     display:inline-block;
     font-size: 2rem;
-    padding:6px
+    padding:9px
 }
 
 a{
@@ -62,6 +74,26 @@ a:hover{
     height:2rem;
     background-color:#f9da0c;
 }
+span p{
+    margin:0 auto;
+    width:83rem;
+    height: 3rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    color:white;
+    text-transform: uppercase;
+    float:left;
+    transform:translateY(5rem);
+}
+p > em{
+    float:right;
+}
+
+
+
+
+
+/*HEADER ENDS HERE*/
 
 main{
     display:block;
