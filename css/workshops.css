@@ -124,6 +124,7 @@ main{
     float:left;
     font-size: 1.5rem
 }
+
 .paragraphs{
     
     margin:0 auto;
@@ -133,7 +134,7 @@ main{
 }
 
 section{
-    
+    line-height: 2.3rem;
     display:block;
    
 }
@@ -145,29 +146,38 @@ section{
     display:block
 }
 
+
 .button{
     margin:0 auto;
     display:block;
     width:28rem;
-    height: 4rem;
-    padding:2%;
+    padding:3%;
     line-height:3.3rem;
     font-size: 2rem;
+    transform:translateY(243%);
     border-radius: 19%;
     background-color:#f9da0c;
 }
 
+
 .button:hover{
+    
     border: solid .05em firebrick;
     background-color:white;
     transition: background 1.3s;
 }
+
 .button > a{
+    
     color:firebrick;
-    line-height:4.3rem;
+    margin:0 auto;
+    transform:translateY(-9.2rem);
+    float:left;
+    
 }
 
 .button > a:hover{
+    
     background-color:firebrick;
     color:#f9da0c;
     border-radius: 19%;
