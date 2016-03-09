@@ -29,6 +29,13 @@ nav{
     
 }
 
+.fa{
+    display:block;
+    float:right;
+    visibility: visible;
+    height: 1rem;
+}
+
 
 ul{
     list-style-type: none;
