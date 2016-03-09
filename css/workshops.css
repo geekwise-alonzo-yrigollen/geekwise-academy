@@ -103,7 +103,12 @@ section{
     border-radius: 19%;
     transition: background 1.3s;
 }
-
+#owl{
+    margin:0 auto;
+    display:block;
+    float:right;
+    
+}
 
 
 
