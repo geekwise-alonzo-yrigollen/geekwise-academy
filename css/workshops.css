@@ -59,22 +59,26 @@ li{
 }
 
 a{
-    color:white;
+    color:#ffffff;
     text-decoration: none;
 }
 
 a:hover{
-    color:firebrick;
-    background-color:#f9da0c;
+    color:#f9da0c;
+/*    background-color:#f9da0c;*/
     transition: background 2s;
     
 }
 
 .active{
+    
+    color:firebrick;
     height:2rem;
     background-color:#f9da0c;
 }
+
 span p{
+    
     margin:0 auto;
     width:83rem;
     height: 3rem;
@@ -85,6 +89,7 @@ span p{
     float:left;
     transform:translateY(5rem);
 }
+
 p > em{
     float:right;
 }
@@ -96,24 +101,50 @@ p > em{
 /*HEADER ENDS HERE*/
 
 main{
+    
     display:block;
     margin:0 auto;
     
 }
-text{
+
+/*FIRST ARTICLE*/
+
+.text{
+    
+    width:75%;
     margin:0 auto;
     display:block;
+    
+}
+
+.h2{
+    
+    margin:0 auto;
+    display:block;
+    float:left;
+    font-size: 1.5rem
+}
+.paragraphs{
+    
+    margin:0 auto;
+    float:left;
+    font-size: 1.2rem;
+    text-align: left;
 }
 
 section{
+    
     display:block;
-    float:left;
+   
 }
 
 .textBottom{
-    display:block;
-    float:left;
+    
+    width:75%;
+    margin:0 auto;
+    display:block
 }
+
 .button{
     margin:0 auto;
     display:block;
@@ -125,6 +156,7 @@ section{
     border-radius: 19%;
     background-color:#f9da0c;
 }
+
 .button:hover{
     border: solid .05em firebrick;
     background-color:white;
@@ -132,13 +164,16 @@ section{
 }
 .button > a{
     color:firebrick;
+    line-height:4.3rem;
 }
+
 .button > a:hover{
     background-color:firebrick;
     color:#f9da0c;
     border-radius: 19%;
     transition: background 1.3s;
 }
+
 #owl{
     margin:0 auto;
     display:block;
