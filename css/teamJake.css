@@ -53,12 +53,14 @@ nav{
     
 }
 
+/*
 .fa{
     display:block;
     float:right;
     visibility: visible;
     height: 1rem;
 }
+*/
 
 
 ul{
@@ -99,3 +101,73 @@ h1{
     text-transform: uppercase;
     transform:translateY(8rem);
 }
+
+main{
+    margin:0 auto;
+    display:block;
+    width:100%;
+    height:100%;
+    font-size: 1.7rem;
+}
+#main{
+    margin:0 auto;
+    display:block;
+    width:calc(100%/2);
+    float:left;
+}
+
+#nar{
+    margin:0 auto;
+    width:calc(100%/2);
+    width:33rem;
+    display:inline-block;
+    height: 22rem;
+    float:left;
+}
+
+#ceo{
+    margin:0 auto;
+    width:calc(100%/2);
+    width:33rem;
+    display:inline-block;
+    height: 42rem;
+    transform:translateX(82%);
+    float:right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
