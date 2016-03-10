@@ -1,129 +1,68 @@
-html, body{
+<!DOCTYPE html>
+<html>
+   
+    <head>
     
-    margin: 0 auto;
-    padding:0;
-    font-size:67.5%;
-}
-
-body{
+    <title> Geekwise Academy | Fresno California </title>
     
-    box-sizing: border-box;
-    margin:0;
-    width:100%;
-    height: 100%;
-    background-color:firebrick;
-    text-align:center;
-    font-family: sans-serif;
-}
-
-header{
-    margin:0 auto;
-    width:100%;
-    height: 28rem;  
-    display:block;
-    background-color:white;
+    <meta charset='utf-8'>
+    
+    <meta content="text/html/">
+    
+    <meta name='viewport' content="width=device-width,initial scale=1">
+    
+    <link rel="stylesheet" href="css/teamJake.css">
+    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    
+   </head>
+   <body>
+       <header id="header">
+        <nav>
+        
+        <span class="logo"><a href="https://geekwiseacademy.com/"><img id="imag" src="http://i.imgur.com/EXCIxXZ.png"></a></span>
+       
+           <ul>
+           <li><a href="about.html">About</a></li>
+               <li><a href="courses.html">Courses</a></li>
+               <li><a href="workshops.html">Workshops</a></li>
+               <li><a href="cohort.html">Cohort</a></li>
+               <li class="active"><a href="signup.html">Sign Up</a></li>
+               <li><a href="team.html">Team</a></li>
+               <li><a href="contact.html">Contact</a></li>
+           </ul>
+             
+        </nav>
+        
+               <span><h1>team</h1></span>
+               
+<!--               <span><img id="upperRight" src="http://i.imgur.com/nPlBPJG.png"></span>-->
+        
+       </header>
+           
+</body>      
+     <main>
+        <section>
+        
+         <h2>Vision and Execution</h2>. Jake is a dreamer of the weird sort in that he has big ideas and actually brings them to life. At Geekwise Academy Jake is responsible for building relationships with partner employers who desire to recruit technologists right out of the Geekwise Academy classroom. Additionally, Jake helps partner employers and Geekwise Academy personnel in defining talent needs and learning objectives. Before founding Bitwise Industries and Geekwise Academy, Jake was an intellectual property lawyer, where he served clients in emerging industries ranging from interactive entertainment to gluten-free foodstuffs. Jake holds a B.A. in History and Political Science from the University of North Carolina at Chapel Hill and a J.D. from Western State College of Law. Jake is a member of the California Bar. He might not be able to code, but he’s the only guy in the building who owns a suit, so we put him in charge.
+         <h3>JAKE A. SOBERAL,</h3>
+         <h3>CHIEF EXECUTIVE OFFICER</h3>
+         
+         </section>
+         
+         <section>
+            
+              <a href="teamJake.html"><span>
+                <img src="http://i.imgur.com/yp09Ob9.jpg">
+             </span></a>
+             
+         </section>
+         
+     </main>
+    
+   
+  
  
- 
-}
-
-#header{
-    background-image: url("http://i.imgur.com/nPlBPJG.png");
-    background-repeat: no-repeat;
-    background-position:top right;
-    
-}
-
-.logo{
-    
-    display:block;
-    margin:1%;
-    margin-left: -4rem;
-    padding-left: 10rem;
-    width:5rem;
-    height: 2rem;
-    float:left;
-    
-}
-
-nav{
-    
-    height: 4rem;
-    display:block;
-    margin:0 auto;
-    
-}
-
-.fa{
-    display:block;
-    float:right;
-    visibility: visible;
-    height: 1rem;
-}
-
-
-ul{
-    list-style-type: none;
-    display:block;
-    margin:0 auto;
-    height:6rem;
-    background-color:white;
-    font-size: 4rem
-    
-}
-li{
-    margin:0 auto;
-    display:inline-block;
-    font-size: 2rem;
-    padding:6px
-}
-a{
-    color:black;
-    text-decoration: none;
-}
-a:hover{
-    
-    color:firebrick;
-    background-color:#f9da0c;
-    transition: background 2s;
-    
-}
-.active{
-    
-    height:2rem;
-    background-color:#f9da0c;
-}
-
-h1{
-    
-    font-size:4rem;
-    text-transform: uppercase;
-    transform:translateY(8rem);
-}
-
-/*
-#upperRight{
-    
-    margin:0 auto;
-    float:right;
-    transform:translateY(-22em);
-    
-}
-*/
-
-main{
-    color:white;
-    margin:0 auto;
-    display:block;
-    padding:3%;
-    font-size:1.9rem;
-    width:70%;
-    height: 30%;
-}
-
-pics{
-    width:100%;
-    height: 30%;
-}
 
 
 
@@ -135,9 +74,4 @@ pics{
 
 
 
-
-
-
-
-
-
+</html>
