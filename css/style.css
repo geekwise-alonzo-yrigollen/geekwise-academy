@@ -28,12 +28,18 @@ nav{
     margin:0 auto;
     
 }
-
+/* font awesome bars below*/
 .fa{
     display:block;
     float:right;
     visibility: visible;
     height: 1rem;
+}
+.fa-bars{
+    color:black;
+    display:block;
+    visibility:visible;
+    
 }
 
 
@@ -83,6 +89,143 @@ h1{
     padding:10px;
     font-size: 3rem;
 }
+.fa{
+    background-color:red;
+    margin:0 auto;
+    width:3rem;
+    height:3rem;
+}
+.fa
+/*
+#bars{
+    display: none;
+}
+input{
+    display: none;
+}
+
+#navbar_hidden{
+    display: none;
+}
+*/
+/*media quire below*/
+
+/*
+@media only screen and (max-width:767px){
+    
+    
+header{
+    height: 30rem;
+    display: none;
+}
+    
+    label{
+        display: block;
+        height: 12%;
+    }
+    
+    #bars{
+        display: inline-block;
+        width:6%;
+        float: right;
+        border:1px solid lightgrey;
+        opacity:.3;
+        margin:1.4rem 1.4rem 0 0;
+        border-radius:5px;
+    }
+    img:hover{
+        background-color:grey;
+    }
+    
+    input:checked + header{
+        display:block;
+        
+    }
+    
+header nav ul{
+    width:100%;
+    display:block;
+    margin:0 auto;
+}
+
+header nav ul li{
+    display:inline-block; 
+    height:calc(100%/7);
+}
+
+header nav ul li:nth-child(1){
+    width:100%;
+    height:4rem;
+    border-top:1px solid lightgrey;
+    
+}
+header nav ul li:nth-child(2){
+    width:100%;
+    height:4rem;
+}
+header nav ul li:nth-child(3){
+    width:100%;
+    height:4rem;
+}
+header nav ul li:nth-child(4){
+    width:100%;
+    height:4rem;
+}
+header nav ul li:nth-child(5){
+    width:100%;
+    background-color:white;
+    height:4rem;
+}
+header nav ul li:nth-child(6){
+    width:100%;
+    height:4rem;
+}
+header nav ul li:nth-child(7){
+    width:100%;
+    height:4rem;
+}
+
+header nav ul li a{
+    margin:0;
+    padding:0;
+    display: inline-block;
+    height:100%;
+    width:20%;
+    font-weight: 600;    
+}
+    header nav ul li a:hover{
+        background-color:#F9DA0C;
+    }
+    #yellow{
+        display: inline-block;
+        height: 100%;
+        width: 20%;
+        background-color:#F9DA0C;
+    }
+
+    header nav ul li span:hover{
+    background-color:#F9DA0C;
+}
+    header nav ul li:hover{
+    background-color:white;
+}
+    
+    main img{
+        width:100%;
+    }
+*/
+
+
+
+
+/*old css below*/
+
+
+
+
+
+
+
 
 
 h2{
@@ -295,10 +438,11 @@ old media below
         body{
             width:calc(100%/.2);
         }
-        }
+    }
         
         
-        }
+}
+
         
         img{
             
@@ -317,15 +461,23 @@ old media below
     img{display:none;
 
     }
+    .fa{
+        visibility: visible;
+    }
+    nav{  
     float:left;
+    visibility: hidden;        
+        }
+    ul{
+    display:none;
     visibility: hidden;
-    opacity:40%;
-    nav{display:none;
-    visibility: hidden;}
+    }
+    nav ul li a{
+        display:none;
+    }
 }
-        
 
-	    footer h1 bottom first one second two third three{
+ footer h1 bottom first one second two third three{
                 
         width:calc(97%/2);
         height:auto; 
