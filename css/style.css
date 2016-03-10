@@ -9,7 +9,7 @@ body{
     margin:0;
     width:100%;
     height: 100%;
-    background-color:firebrick;
+    background-color:#7a1501;
     text-align:center;
     font-family: sans-serif;
 }
@@ -55,7 +55,7 @@ a{
     text-decoration: none;
 }
 a:hover{
-    color:firebrick;
+    color:#7a1501;
     background-color:#f9da0c;
     transition: background 2s;
     
@@ -97,21 +97,56 @@ h2{
     margin:0 auto;
     display:block;
     width:80%;
-    border-top: solid white; 
+    border-top: solid white .03rem; 
     
     
 }
+/*below article had to change*/
+/*
 .article{
     display:inline-block;
     margin:0 auto;
-    height: 8rem;
+    height:8rem;
+    border-right: solid white .03rem;
     width:calc(80%/3);
+    transform: translateY(-1rem);
   
 }
+*/
+#middle_article{
+    display:inline-block;
+    margin:0 auto;
+    height:8rem;
+    border-right: solid white .03rem;
+    width:calc(80%/3);
+    transform:translateY(-2em)
+}
+
+#article{
+    display:inline-block;
+    margin:0 auto;
+    height:8rem;
+    border-right: solid white .03rem;
+    width:calc(80%/3);
+    width:15%;
+    transform: translateY(1.9rem);
+}
+
+#right_article{
+    
+    display:inline-block;
+    margin:0 auto;
+    height:8rem;
+    width:calc(80%/3);
+    width:15%;
+    transform: translateY(3rem);
+
+}
+
 #one{
     margin:0 auto;
     color:white;
-    font-size:1rem;
+    font-size:1.3rem;
     float:left;
     transform:translateY(5rem);
 }
@@ -119,18 +154,17 @@ h2{
     display:block;
     margin:0 auto;
     height:8rem;
-    border-right: solid white;
     background-image: url("http://i.imgur.com/oKDYyMm.png");
     background-repeat: no-repeat;
-    transform:translateY(10%);
+    transform:translateY(-17%);
     text-align: center;
     
 }
 #two{
-    margin-right:1rem;
+    
     width:4rem;
     color:white;
-    font-size:1rem;
+    font-size:1.3rem;
     padding:7px;
     transform:translateY(5rem);
    
@@ -140,10 +174,10 @@ h2{
     margin:0 auto;
     height:8rem;
     width:9rem;
-    border-right: solid white;
     background-image: url("http://i.imgur.com/C1LTRQ7.png");
+    transform: translateY(-23%);
     background-repeat: no-repeat;
-    transform:translateY(-4rem);
+    
     
     
 }
@@ -151,21 +185,20 @@ h2{
     margin:0 auto;
     color:white;
     transform:translateY(5rem);
-    float: left;
-    font-size:1rem;
+    float:left;
+    font-size:1.5em;
 }
 #third{
     display:block;
-    margin-left:4rem;
+    margin-left:9rem;
     height:8rem;
     width:18rem;
     background-image: url("http://i.imgur.com/iBMmTtr.png");
     background-repeat: no-repeat;
-    transform:translateY(3rem);
+    transform:translateX(3em);
     float:left;
     
 }
-
 
 /*
 .fa fa-bars{
@@ -183,12 +216,6 @@ h2{
     visibility: hidden;
 }
 */
-
-
-
-
-
-
 
 
 /*
@@ -258,13 +285,6 @@ h2{
     }
 }
 */
-
-
-
-
-
-
-
 
 
 old media below
