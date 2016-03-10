@@ -12,23 +12,51 @@ body{
     background-color:white;
     text-align:center;
     font-family: sans-serif;
+    background-image: url(http://i.imgur.com/YZOVy0w.png);
+    background-position:top right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;       
+
+
 }
+
 header{
     margin:0 auto;
     width:100%;
-    height: 16rem;  
+    height: 15rem;  
     display:block;
     background-color:firebrick;
  
 }
-nav{
+
+.logo{
     
-    height: 4rem;
     display:block;
-    margin:0 auto;
+    margin:1rem;
+    padding-left:25rem;
+    width:15rem;
+    height: 5rem;
+    float:left;
+    
     
 }
+img{
+    margin:0 auto;
+    display:block;
+    text-align: left;
+    transform:translateX(-22rem);
+}
 
+nav{
+    
+    height: 5rem;
+    display:block;
+    margin:0 auto;
+    text-align: left;
+    
+}
 
 ul{
     list-style-type: none;
@@ -37,129 +65,84 @@ ul{
     font-size: 4rem
     
 }
+
 li{
     margin:0 auto;
     display:inline-block;
     font-size: 2rem;
-    padding:6px
+    padding:9px
 }
+
 a{
-    color:white;
+    color:#ffffff;
     text-decoration: none;
 }
+
 a:hover{
     color:#f9da0c;
-    background-color:none;
+/*    background-color:#f9da0c;*/
     transition: background 2s;
     
 }
-.active{
-    height:2rem;
+.active>a{
+    color:firebrick;
+    padding:1.3rem;
     background-color:#f9da0c;
 }
+
 h1{
-    display:block;
-    margin:0 auto;
-    padding:.5%;
-    float:left;
-    transform:translateY(8rem);
     color:white;
+    margin:0 auto;
+    text-align: left;
+    float: left;
+    padding-left: 9rem;
+    width:70%;
+    transform: translateY(6rem);
+}
+
+/*paragraph starts here before the table*/
+
+
+#geekwise{
+    width: 95%;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    padding:2em;
+    line-height: 1.3em;
+    font-size: 1.4rem;
     
 }
-#first{
-    display:block;
+span p{
+    
     margin:0 auto;
-    font-size: 1.4rem;
+    width:83rem;
+    height: 3rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    color:white;
+    text-transform: uppercase;
+    float:left;
+    transform:translateY(5rem);
 }
-.lesson{
-        
-    padding: 20px;
-    font-size: 14px;
-}
-
-
 
 /*old css*/
 
-/*
-html,body{
-    margin: 0;
-    padding: 0;
-}
-body{
-     background-image: url(http://i.imgur.com/YZOVy0w.png);
-    background-position:top right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    margin: 0;
-    padding: 0;
-
-}
-main{
-    width:100%;
-}
-.none:hover{
-    background-color: #7a1501;
-
-}
-.fluff{
-    color: white;
-    margin-left: 30px;
-}
-.top{
-    background-color: #7a1501;
-    margin:0;
-    padding: 0;
-}
-.yellow> a {
-    color:#f9da0c;
-}
-nav{
-    height:5rem;
-    width:100%;
-    display:block;
-}
-ul{
-    display:inline-block;
-    list-style:none;
-    line-height:1rem;
-    color: white;
-}
-li{
-    padding:1rem;
-    display:inline;
-    float:left;
-    height:1rem;
-    font-size:1rem;
-    text-transform:uppercase;
-}
-.active{
-    
-    background-color: #f9da0c;
-
-}
-.active > a{
-    color:#7a1501;
-}
-
-a{
-    text-decoration: none;
-    color: white;
-}
-a:hover{
-    background-color: #f9da0c;
+table{
+    font-size: 1.3rem;
+    transform:translateY(-23rem)
 }
 .fa{
     visibility: hidden;
 }
-.enroll{
+.sig{
     background-color:#f9da0c;
     
     text-transform: uppercase;
 }
-.enroll_sign{
-    padding: 10px;
-    color: #7a1501;
+.rtsign{
+    padding:10px;
+    color:black;
 }
 p{
     position: relative;
@@ -170,11 +153,12 @@ p{
     border-bottom: 1px solid black;
 }
 
-.lesson{
+.work{
         
     padding: 20px;
     font-size: 14px;
 }
+
 section{
     padding: 80px;
     width: 80%;
@@ -184,10 +168,24 @@ footer{
     float:left;
     padding: 20px;
     height: 15px;
-    background-color:#f9da0c;
-    color:#7a1501;
+    transform: translateY(-40em);
+   
+
 }
-*/
+.button{
+    color:black;
+    font-size: 1.3rem;
+    margin:0 auto;
+    width:25rem;
+    padding:2rem;
+    background-color:#f9da0c;
+    text-align: center;
+    text-transform: uppercase
+    background-color:#f9da0c;
+    
+
+}
+
 
 
 
