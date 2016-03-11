@@ -186,6 +186,10 @@ h2{
     width:calc(90%/3);  
     
 }
+.both{
+    border-right:solid white .03rem;
+    border-left:solid white .03rem;
+}
 #first{
     margin:0 auto;
     display:block;
@@ -200,7 +204,7 @@ h2{
     display:block;
     width:calc(100%/3);
     float:left;
-    transform: translateX(8rem);
+    transform: translateX(11rem);
     
     
 }
@@ -210,6 +214,7 @@ h2{
     width:calc(100%/3);
     float:left;
     border-left: solid white .03;
+    transform:translateX(10rem)
     
 }
 p{
