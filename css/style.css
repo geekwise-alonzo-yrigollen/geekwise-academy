@@ -180,9 +180,10 @@ h2{
 }
 .article{
     margin:0 auto;
+    margin-top: 2%;
     display:inline-block;
-    width:calc(90%/3);
-    
+    text-align: center;
+    width:calc(90%/3);  
     
 }
 #first{
@@ -190,6 +191,8 @@ h2{
     display:block;
     width:calc(100%/3);
     float:left;
+    transform: translateX(15rem);
+    border-right: solid white .03;
     
 }
 #second{
@@ -197,6 +200,8 @@ h2{
     display:block;
     width:calc(100%/3);
     float:left;
+    transform: translateX(8rem);
+    
     
 }
 #third{
@@ -204,9 +209,17 @@ h2{
     display:block;
     width:calc(100%/3);
     float:left;
+    border-left: solid white .03;
     
 }
-
+p{
+    font-size: 1.5rem;
+    color:white;
+    
+}
+a{
+    text-decoration: none;
+}
 
 
 
