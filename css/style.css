@@ -21,6 +21,56 @@ header{
     background-color:white;
  
 }
+
+.navbar{
+    display:block;
+    margin:0 auto;
+    background-color:red;
+    
+    
+}
+.team{
+    background-color:yellow;
+}
+ul{
+   display:block;
+
+}
+li{
+    display:inline-block;
+    margin:0 auto;
+    font-size: 2rem;
+    padding:2rem;
+
+    
+}
+li:hover{
+    background-color:right;
+}
+header{
+    display:block;
+    
+}
+
+.dropdown{
+    display:inline-block;
+    position:relative;
+    
+}
+
+.dropdown-content{
+    background-color:yellow;
+    padding:10px 10px;
+    display:none;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+
+
+
 nav{
     
     height: 4rem;
@@ -79,7 +129,10 @@ footer{
     display:block;
     margin:0 auto;
     width:100%;
+    
 }
+/*
+
 
 h1{
     color:white;
@@ -96,6 +149,7 @@ h1{
     height:3rem;
 }
 .fa
+*/
 /*
 #bars{
     display: none;
