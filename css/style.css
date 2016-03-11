@@ -32,18 +32,27 @@ header{
 .team{
     background-color:yellow;
 }
+nav{
+    width:60%;
+    display:block;
+    height: 5rem;
+    
+}
+
 ul{
    display:block;
 
+
 }
+
 li{
     display:inline-block;
     margin:0 auto;
     font-size: 2rem;
     padding:2rem;
-
     
 }
+
 li:hover{
     background-color:right;
 }
@@ -68,12 +77,8 @@ header{
     display:block;
 }
 
-
-
-
 nav{
-    
-    height: 4rem;
+    height:3rem;
     display:block;
     margin:0 auto;
     
@@ -85,6 +90,7 @@ nav{
     visibility: visible;
     height: 1rem;
 }
+
 .fa-bars{
     color:black;
     display:block;
@@ -94,37 +100,50 @@ nav{
 
 
 ul{
+    
     list-style-type: none;
     display:block;
     margin:0 auto;
-    font-size: 4rem
     
 }
+
 li{
+    
     margin:0 auto;
     display:inline-block;
-    font-size: 2rem;
-    padding:6px
+    font-size: 1.5rem;
+    padding:6.5px
+        
 }
+
 a{
+    
     color:black;
     text-decoration: none;
+    
 }
+
 a:hover{
+    
     color:#7a1501;
     background-color:#f9da0c;
     transition: background 2s;
     
 }
+
 .active{
-    height:2rem;
+    
     background-color:#f9da0c;
+    
 }
+
 #img{
+    
     height: 33rem;
     margin:0 auto;
     
 }
+
 footer{
     display:block;
     margin:0 auto;
