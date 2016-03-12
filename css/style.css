@@ -13,7 +13,7 @@ body{
     text-align:center;
     font-family: sans-serif;
 }
-/*
+
 header{
     margin:0 auto;
     width:100%;
@@ -60,9 +60,10 @@ li{
 li:hover{
     background-color:right;
 }
+
 header{
     display:block;
-    
+    background-color: white;
 }
 
 .dropdown{
@@ -87,8 +88,9 @@ nav{
     margin:0 auto;
     
 }
-*/
+
 /* font awesome bars below*/
+
 /*
 .fa{
     display:block;
@@ -103,6 +105,7 @@ nav{
     visibility:visible;
     
 }
+*/
 
 
 ul{
@@ -141,10 +144,6 @@ a:hover{
     
     background-color:#f9da0c;
     
-}
-*/
-header{
-    background-color:white;
 }
 
 footer{
@@ -225,22 +224,9 @@ p{
 a{
     text-decoration: none;
 }
-
-
-
-
-
-
-img{
-    
+#img{
+    width:33rem;
 }
-
-
-
-
-
-
-
 
 /*
 
