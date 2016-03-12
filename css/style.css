@@ -62,7 +62,7 @@ li:hover{
 
 header{
     margin:0 auto;
-    height: 33rem;
+    height: 35.3rem;
     background-color: white;
     display: block;
     vertical-align: middle;
@@ -167,11 +167,11 @@ footer{
 h1{
     color:white;
     margin:0 auto;
-    width:50%;
-    height:20%;
-    padding:10px;
-    font-size:3rem; 
-        
+    width:auto;
+    padding:30px;
+    font-size:3rem;
+    text-transform: uppercase;
+    font-family: 
 }
 h2{
     color:white;
