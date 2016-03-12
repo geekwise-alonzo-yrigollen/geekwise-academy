@@ -1,79 +1,156 @@
+html, body{
+    margin: 0 auto;
+    padding:0;
+    font-size:67.5%;
+}
+
+body{
+    box-sizing: border-box;
+    margin:0;
+    width:100%;
+    height: 100%;
+    background-color:#7a1501;
+    text-align:center;
+    font-family: sans-serif;
+}
+
+header{
+    margin:0 auto;
+    width:100%;
+    height:33rem;  
+    display:block;
+    background-color:white;
+ 
+}
+
+.navbar{
+    
+    display:block;
+    margin:0 auto;
+    background-color:red;
+    
+    
+}
+.team{
+    
+    background-color:yellow;
+}
+nav{
+    
+    width:60%;
+    display:block;
+    height: 5rem;
+    
+}
+
+ul{
+   display:block;
 
 
+}
 
-<!DOCTYPE html>
-<html>
-   
-    <head>
+li{
+    display:inline-block;
+    margin:0 auto;
+    font-size: 2rem;
+    padding:2rem;
     
-    <title> Geekwise Academy | Fresno California </title>
+}
+
+li:hover{
+    background-color:right;
+}
+
+header{
+    margin:0 auto;
+    height: 33rem;
+    background-color: white;
+    display: block;
+    vertical-align: middle;
     
-    <meta charset='utf-8'>
+}
+a > img{
+    max-width:100%;
+    width:630px;
+    height: auto;
+}
+
+.dropdown{
+    display:inline-block;
+    position:relative;
     
-    <meta content="text/html/">
+}
+
+.dropdown-content{
+    background-color:yellow;
+    padding:10px 10px;
+    display:none;
+}
+
+.dropdown:hover .dropdown-content{
+    display:block;
+}
+
+nav{
+    height:3rem;
+    display:block;
+    margin:0 auto;
     
-    <meta name='viewport' content="width=device-width,initial scale=1">
+}
+
+/* font awesome bars below*/
+
+/*
+.fa{
+    display:block;
+    float:right;
+    visibility: visible;
+    height: 1rem;
+}
+
+.fa-bars{
+    color:black;
+    display:block;
+    visibility:visible;
     
-    <link rel="stylesheet" href="css/teamJake.css">
+}
+*/
+
+
+ul{
     
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    list-style-type: none;
+    display:block;
+    margin:0 auto;
     
-   </head>
-   <body>
-       <header id="header">
-        <nav>
+}
+
+li{
+    
+    margin:0 auto;
+    display:inline-block;
+    font-size: 1.5rem;
+    padding:6.5px
         
-        <span class="logo"><a href="https://geekwiseacademy.com/"><img id="imag" src="http://i.imgur.com/EXCIxXZ.png"></a></span>
-       
-           <ul>
-           <li><a href="about.html">About</a></li>
-               <li><a href="courses.html">Courses</a></li>
-               <li><a href="workshops.html">Workshops</a></li>
-               <li><a href="cohort.html">Cohort</a></li>
-               <li class="active"><a href="signup.html">Sign Up</a></li>
-               <li><a href="team.html">Team</a></li>
-               <li><a href="contact.html">Contact</a></li>
-           </ul>
-             
-        </nav>
-        
-               <span><h1>team</h1></span>
-               
-<!--               <span><img id="upperRight" src="http://i.imgur.com/nPlBPJG.png"></span>-->
-        
-       </header>
-           
-</body> 
-         
-     <main>
-       
-        <section id="main">
-        
-         <span id="nar">Builder of a new way to learn. Beth brings over ten years of educational experience to Geekwise Academy. She has spent years as a classroom teacher and most recently was the Dean of Curriculum and Instruction at the Center for Advanced Research and Technology (CART) in Clovis, California. As dean, she guided instructional design, development, implementation and evaluation of projects based on curriculum and instructional services to serve the needs of CART’s students and teachers. Prior to her position as Dean of Curriculum at CART, Beth taught English in the school’s interactive video game design, computer networking and web design courses. Throughout her career in education, Beth has been responsible for pedagogy evaluation and curriculum design, notably within the technology coursework at CART and a Construction Technology pathway at an area high school. Beth’s education research, observation, and execution have earned her numerous publications and honors. Beth holds a B.A. in English Language and Literature from California State University at Sacramento, a M.A. in Education from National University, and a M.S. in Educational Administration and Supervision from National University. At Geekwise Academy, Beth is responsible for taking complex technology concepts and packaging them for your brain to consume.
-             <h3>BETHANY E. MILY,</h3>
-             <h3>CURRICULUM DEVELOPER</h3> 
-     
-        </span>
-                    
-          <span><a href="bethTeam.html">
-              <img id="ceo" src="http://i.imgur.com/VdjYDCH.jpg"></a></span>
-            
-         </section>
-         
-     </main>
-     
+}
 
+a{
+    
+    color:black;
+    text-decoration: none;
+    
+}
 
-</html>
+a:hover{
+    
+    color:#7a1501;
+    background-color:#f9da0c;
+    transition: background 2s;
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
+.active{
+    
+    background-color:#f9da0c;
+    
+}
