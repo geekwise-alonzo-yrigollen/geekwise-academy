@@ -144,6 +144,9 @@ table{
     padding:10px;
     color:black;
 }
+.rtsign:hover{  
+    color:black;
+}
 p{
     position: relative;
     top:-40px;
