@@ -94,21 +94,108 @@ p > em{
     float:right;
 }
 
-
-
-
-
 /*HEADER ENDS HERE*/
 
 main{
-    
+    width:85%;
     display:block;
     margin:0 auto;
     
 }
+.first{
+    
+    display:block;
+    margin:0 auto;
+    height: auto;
+    
+}
+p{
+    font-size: 1.2rem;
+    float:left;
+    text-align: left;
+
+}
+
+h2{
+    width:100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border-bottom: solid .03rem;
+}
+#second{
+    
+    display:block;
+    margin:0 auto;
+    height: auto;
+    
+}
+#h2{
+    width:100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border-bottom: solid .03rem;  
+}
+p{
+    width:100%;
+    text-align: left;
+}
+
+b{
+    font-size: 1.2rem;
+    float:left;
+    text-align: left;
+}
+#third{
+    width:auto;
+}
+#last{
+    float:left;
+    width: 100%;
+    border-bottom:solid .03rem;
+    text-align:left;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    border-bottom: solid .03rem;   
+}
+b{
+    font-size: 1.2rem;
+    float:left;
+    text-align: left;
+}
+.button a{
+    color:black;
+    margin:0 auto;
+    width:20%;
+    padding:1rem;
+    text-transform: uppercase;
+    font-size: 1.8em;
+    background-color:yellow;
+}
+.button:hover{
+    color:white;
+}
+    
+/*
+    margin:0 auto;
+    width:100%;
+    height:4rem;
+    text-align: center;
+    transform:translateY(53rem);
+    transform:translateX(33rem);
+    font-size: 1.5rem;text-align: center;
+*/
+    
+}
+
+
+
+
 
 /*FIRST ARTICLE*/
 
+/*
 .text{
     
     width:75%;
@@ -179,6 +266,7 @@ section{
     margin:0 auto;
     display:block
 }
+*/
 
 
 /*
