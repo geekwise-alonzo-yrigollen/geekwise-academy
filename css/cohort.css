@@ -65,7 +65,35 @@ a:hover{
     padding:1rem;
     background-color:#f9da0c;
 }
-
+main{
+    display:block;
+    margin: 0% 15% 0% 15%;
+    height: auto;
+    text-align: center;
+    font-size: 1.7rem;
+}
+#first_article{
+    display:block;
+    text-align: left;
+}
+p{
+    display:block;
+    text-align: left;
+}
+ol{
+    display:inline;
+    margin:0 auto;
+    width:40;
+    line-height:1.5;
+    float:left;
+    height:23rem;;
+    text-align: left;
+}
+ol > li{
+    display:inline;
+    float:left;
+    text-align: left;
+}
 /*
 img{
     
