@@ -103,15 +103,24 @@ ol > li{
     
 }
 .btn{
-    width:95%;
+    width:100%;
     
 }
 #co{
-    float:left;
+    float: left;
 }
 #demo{
-    display:inline-block;
+    
 }
+.one{
+    width:28.5rem;
+    float:left;
+    display:block;
+    margin:0 auto;
+
+
+}
+
 
 
 
