@@ -43,7 +43,7 @@ ul{
     height: auto;
     font-size:4rem;
 }
-li{
+ ul li{
 
     margin:0 auto;
     height: 5.5rem;
@@ -92,10 +92,14 @@ ol{
     height:23rem;;
     text-align: left;
 }
-ol > li{
-    display:inline;
+div ol{
+    display:block;
     float:left;
-    text-align: left;
+    width:100%;
+    height: auto;
+}
+ol li{
+    text-align:left;
 }
 
 /*COHORT PIC BEGINS HERE*/
@@ -108,14 +112,15 @@ ol > li{
 }
 
 .btn{
+    
     display:block;
     margin:0 auto;
     width:100%;
     
-    
 }
 
 #co{
+    
     width:100%;
     color:black;
     padding:.3em;
@@ -123,42 +128,35 @@ ol > li{
     float:left;
     display:block;
     background-color:#f9da0c;
+    
 }
 
 .one{
+    
     width:28.5rem;
     float:left;
     display:block;
     margin:0 auto;
 
+}
+
+.btn-info{
+    
+    background-color:yellow;
+    border-color:yellow;
+    
+}
+
+.collapse{
+    
+    display:none;
 
 }
-.collapse{
-    display:none;
-    margin:0 auto;
-    width:100%;
-}
+
 .bottom_section{
+    
     display:block;
     height: auto;
     background-color:#7a1501;
+    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
