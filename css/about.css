@@ -32,6 +32,16 @@ nav{
     
 }
 
+.logo{
+    
+    margin:0 auto;
+    padding:1rem;
+    font-size:3rem;
+    display:block;
+    float:left;
+
+}
+
 ul{
     list-style-type: none;
     display:block;
@@ -129,7 +139,11 @@ p{
     display:block;
     color:white;
     font-size: 2rem
-} 
+}
+h3>#ask{
+    
+    font-size:4rem;
+}
 footer{
     width:100%;
     margin:0 auto;

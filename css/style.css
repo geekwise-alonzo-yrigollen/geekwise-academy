@@ -34,6 +34,7 @@ header{
     
     background-color:yellow;
 }
+    
 nav{
     
     width:50%;
@@ -55,6 +56,16 @@ li{
     margin:0 auto;
     
 }
+label{
+    display:none;
+}
+.fa{
+    visibility: hidden;
+    width:auto;
+    height:auto;
+    margin-left: 84%;
+    transform:translateY(-3em);
+}
 
 li:hover{
     background-color:#f9da0c;
@@ -71,7 +82,8 @@ header{
 a > img{
     max-width:100%;
     width:630px;
-    height: auto;
+    height:auto;
+    margin:auto;
 }
 
 .dropdown{
@@ -91,7 +103,7 @@ a > img{
 }
 
 nav{
-    height:3rem;
+    height:auto;
     display:block;
     margin:0 auto;
     
@@ -234,6 +246,11 @@ p{
 a{
     text-decoration: none;
 }
+.fa{
+    display:inline;
+    
+}
+
 
 
 /*
@@ -589,14 +606,18 @@ old media below
         body{
             width:calc(100%/.2);
         }
+        .fa{
+        visibility:hidden;
     }
-        
-        
+}
+    .unorder menu{
+        display:none;
+    }    
 }
 
         
-        img{
-            
+        nav{
+            margin:auto;
             max-width:calc(100%/1.3px);
             height:auto;
             transform: translate(520px,20px);
@@ -612,8 +633,26 @@ old media below
     img{display:none;
 
     }
+    ul{
+        visibility: hidden;
+    }
+    
+    
+    nav{
+        visibility: hidden;
+    }
+    li{
+        visibility: hidden;
+    }
     .fa{
-        visibility: visible;
+    visibility: hidden;
+    width:auto;
+    height:auto;
+    margin-left: 84%;
+    transform:translateY(-3em);
+    {
+
+}
     }
     nav{  
     float:left;
@@ -640,5 +679,54 @@ old media below
         height:auto; 
         transform:translateY(calc 3rem);
     }
-       
+    @media only screen and (max-width:492){
+    img{display:none;
+        }
+         nav ul li a{
+        display:none;
+    }
+      body{
+            width:calc(100%/.2);
+        }
+        .fa{
+        visibility:hidden;
+    }
+}
+        
+}
+
+        
+        img{
+            
+            max-width:calc(100%/1.3px);
+            height:auto;
+            transform: translate(520px,20px);
+
+        }
+	    img{
+                
+        width:calc(97%/2);
+        height:auto; 
+        transform:translateY(calc 3rem);
+    }
+@media only screen and (max-width:551){
+    img{display:none;
+
+    }
+    ul{
+        visibility:none;
+        display:none;
+    }
+    
+    
+    nav{
+        visibility: hidden;
+        display: none;
+    }
+    li{
+        visibility: hidden;
+        display: none;
+        
+    }  
+    }   
 
