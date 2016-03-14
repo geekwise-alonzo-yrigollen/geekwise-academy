@@ -94,16 +94,24 @@ ol > li{
     float:left;
     text-align: left;
 }
-/*
-img{
-    
-    background-repeat: no-repeat;
-    float:right;
-    width:20rem;
+
+/*COHORT PIC BEGINS HERE*/
+
+.container{
+    display:block;
+    margin: 0 auto;
     
 }
-*/
-
+.btn{
+    width:95%;
+    
+}
+#co{
+    float:left;
+}
+#demo{
+    display:inline-block;
+}
 
 
 
