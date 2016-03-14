@@ -135,33 +135,47 @@ body{
 }
 
 header{
-    margin:0 auto;
+    
     width:100%;
-    height:33rem;  
+    height:24rem;  
     display:block;
     background-color:white;
  
 }
+.logo{
+    float:left;
+    margin:0 auto;
+    padding:3em;
+    width:19rem;
+    transform: translateX(13rem);
+}
+span>img{
+    float:right;
+    transform:translateY(-30%);
+    
+}
+
 ul{
     
-    list-style-type: none;
+    width:70%;
     display:block;
-    margin:0 auto;
-    
+    transform:translateX(7%);
+
 }
 
 li{
     
     margin:0 auto;
     display:inline-block;
-    font-size: 1.5rem;
-    padding:6.5px
+    font-size: 2rem;
+    padding:.6%;
         
 }
 
 a{
     
     color:black;
+    line-height: 3.5rem;
     text-decoration: none;
     
 }
@@ -169,13 +183,37 @@ a{
 a:hover{
     
     color:#7a1501;
-    background-color:#f9da0c;
+/*    background-color:#f9da0c;*/
     transition: background 2s;
     
 }
 
 .active{
-    
+    height: 4rem;
     background-color:#f9da0c;
     
+}
+h1{
+    text-transform: uppercase;
+    font-size: 3.6rem;
+    transform:translateY(5rem);
+    
+}
+main{
+    color:white;
+    font-size: 2.2rem;
+    width:70%;
+    text-align: center;
+    margin:0 auto;
+    
+}
+.pics{
+    width:100%;
+    display:block;
+
+}
+.pics>.aplus>a{
+    display: inline-block;
+    margin:0 auto;
+    width:calc(88%/4);
 }
