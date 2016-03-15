@@ -55,11 +55,10 @@ a:hover{
 }
 
 .geekwise{
-    position: relative;
+    position:inherit;
     top:30px;
     max-width: 100%;
-    height: auto;
-    text-align: center;
+    
 }
 h2{
    position: relative;
@@ -120,6 +119,7 @@ hr{
     float:right;
 }
 topbar{
+    height: auto;
     display:inline;
     float:right;
     
@@ -139,6 +139,7 @@ topbar{
 
 
 
+
 @media only screen and (max-width:1021px){
     
     .lines{
@@ -152,7 +153,9 @@ topbar{
 */
 }
 @media only screen and (max-width:900px){
+    
     .fa{
+        
         visibility: visible;
         color: gray;
     }
@@ -169,6 +172,9 @@ topbar{
         
     }
     nav{
+        display:none;
+    }
+    topbar{
         display:none;
     }
     
@@ -200,9 +206,11 @@ topbar{
     .lines{
         margin-left: 250px;
     }
+/*
     .geekwise{
         transform: translateY(12.5rem);
     }
+*/
 /*
     .geekwise{
         visibility: visible;
