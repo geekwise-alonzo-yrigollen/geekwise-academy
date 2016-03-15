@@ -144,16 +144,22 @@ topbar{
     .lines{
         margin-left:300px;
     }
+/*
+    .geekwise{
+        
+        visibility: visible;
+    }
+*/
 }
 @media only screen and (max-width:900px){
     .fa{
         visibility: visible;
         color: gray;
     }
-
+  
     .list{
     width:200px;
-    height: ;
+    height:auto;
     font-size: 28px;
     border: lightgrey solid .1rem;
     border-radius: .5rem;
@@ -176,6 +182,7 @@ topbar{
    
 }
     #ch{
+        
         display:none;
     }
    
@@ -193,16 +200,34 @@ topbar{
     .lines{
         margin-left: 250px;
     }
+    .geekwise{
+        transform: translateY(12.5rem);
+    }
+/*
+    .geekwise{
+        visibility: visible;
+    }
+*/
 }
 @media only screen and (max-width:600px){
     {
         margin-left:170px;
     }
+/*
+    .geekwise{
+        visibility: visible;
+    }
+*/
 }
 @media only screen and (max-width:480px){
     img{
         width:100%;
         height: auto;
+        
+    }
+    
+    header{
+        height: 23rem;
     }
     
     .icons{
@@ -213,6 +238,13 @@ topbar{
     }
   
 }
+
+/*
+  .geekwise{
+        visibility: hidden;
+}
+*/
+*/
 /*
 html, body{
     
