@@ -34,15 +34,33 @@ header{
     
 }
 
-nav{
+.parent{
+    border-color:yellow;
+    display:flex;
+    justify-content: space-around;
     
-    height: 5rem;
-    display:block;
-    margin:0 auto;
-    text-align: left;
     
 }
+.item{
+    line-height: 4.5rem;
+    font-size: 2rem;
+    width:80px;
+}
+.sign{
+    height: 5rem;
+    background-color:yellow;
+}
 
+
+/*
+    height: 5rem;
+    margin:0 auto;
+    text-align: left;
+*/
+    
+
+
+/*
 ul{
     list-style-type: none;
     display:block;
@@ -50,32 +68,43 @@ ul{
     font-size: 4rem
     
 }
+*/
 
+/*
 li{
     margin:0 auto;
     display:inline-block;
     font-size: 2rem;
     padding:9px
 }
+*/
 
+/*
 a{
     color:#ffffff;
     text-decoration: none;
 }
+*/
 
+/*
 a:hover{
     color:#f9da0c;
+*/
 /*    background-color:#f9da0c;*/
+/*
     transition: background 2s;
     
 }
+*/
 
+/*
 .active{
     
     color:firebrick;
     height:2rem;
     background-color:#f9da0c;
 }
+*/
 
 span p{
     
@@ -176,6 +205,88 @@ b{
 .button:hover{
     color:white;
 }
+.fa{
+    float: right;
+    
+    visibility: hidden;
+}
+.list{
+    float: right;
+    text-align: right;
+    visibility: hidden;
+}
+
+@media only screen and (max-width:1021px){
+    .parent{
+        margin-left:300px;
+        
+    }
+    checkbox{
+        
+    }
+    #bars{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width:900px){
+    .parent{
+        display:none;
+    }
+    .logo{
+        visibility: hidden;
+    }
+    .fa{
+        
+        visibility: visible;
+        color: gray;
+    }
+  
+    .list{
+    width:200px;
+    height:auto;
+    font-size: 28px;
+    border: lightgrey solid .1rem;
+    border-radius: .5rem;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+        
+    }
+    nav{
+        display:none;
+    }
+    topbar{
+        display:none;
+    }
+    
+    #bars{
+        display:none;
+    }
+    
+    #bars:checked~#topbar{
+    display: block;
+    visibility: visible;
+   
+}
+    #ch{
+        
+        display:none;
+    }
+   
+    li{
+        text-align:left;
+        width: 100px;
+        color: black;
+        
+    }
+    nav{
+        
+        visibility: hidden;
+    }
+
+    .lines{
+        margin-left: 250px;
+    }
     
 /*
     margin:0 auto;
