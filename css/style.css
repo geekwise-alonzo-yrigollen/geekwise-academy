@@ -16,9 +16,13 @@ body{
     padding: 0;
 }
 
-nav{
+
+#topbar{
     display:flex;
     justify-content:center;
+}
+
+
     
 /*
     text-align:center;
