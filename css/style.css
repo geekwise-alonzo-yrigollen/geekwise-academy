@@ -10,33 +10,32 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/*BELOW HEADER HAS AN ID="STAY"*/
+
 #stay{
     display:block;
     margin:0 auto;
 }
 
-.always{
-    margin: 20px;
-    padding: 0;
-}
+/*BELOW NAV HAS AN ID="topbar"*/
 
 #topbar{
     display:flex;
     justify-content:center;
+
 }
-    
-/*
-    text-align:center;
-    height:5rem;
-    width:100%;
-    display:block;
-*/
-}
+
+/*UL IS DISPLAYED BLOCK */
+
 ul{
-    display:inline-block;
+    display:block;
     list-style:none;
     line-height:1rem;
 }
+
+/*LI DISPLAY INLINE-BLOCK MAKES LIST INDIVIDUALLY BOXED IN A HORIZONTAL LINE*/
+
 li{
     padding:1rem;
     display:inline-block;
@@ -45,11 +44,15 @@ li{
     font-size:1rem;
     text-transform:uppercase;
 }
+
+/*ACTIVE CLASS REFERS TO THE SIGN UP BUTTON*/
+
 .active{
     
     background-color: #f9da0c;
 
 }
+
 .active > a{
     color:#7a1501;
 }
@@ -59,9 +62,12 @@ a{
     text-decoration: none;
     color: black;
 }
+
+/*BELOW WILL MAKE YOUR ANCHOR TAG HOVER RED*/
+
 a:hover{
     display:block;
-    color: #f9da0c;
+    color:#7a1501;
 }
 
 .geekwise{
@@ -70,8 +76,9 @@ a:hover{
     max-width: 100%;
     
 }
+
 h2{
-   position: relative;
+    position: relative;
     top:30px;
     font-family: "franchise";
     font-size: 2.0em;
@@ -80,6 +87,7 @@ h2{
     color: white;
     text-transform: uppercase;
 }
+
 h3{
     position: relative;
     top:30px;
@@ -100,6 +108,7 @@ h3{
     height:400px;
     background-color:#7A1501; 
 }
+
 .icons{
     position: relative;
     top:50px;
@@ -110,6 +119,7 @@ h3{
     text-align: center;
     width: calc(100%/3);
 }
+
 .lines{
     border-right: solid white .01rem;
     height: 90px;
@@ -119,11 +129,13 @@ h3{
     width: 1px;
     vertical-align: middle;
 }
+
 .center{
     width:23rem;
     border-right:solid white .03rem;
     border-left:solid white .03rem;
 }
+
 #bars{
     display:none;
     float:right;
