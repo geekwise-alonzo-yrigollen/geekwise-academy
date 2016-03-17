@@ -372,36 +372,11 @@ inspect resourses fonts, download and save and rename it,
         visibility: visible;
         color: gray;
     }
-
-    .list{
-    width:200px;
-    height: ;
-    font-size: 28px;
-    border: lightgrey solid .1rem;
-    border-radius: .5rem;
-    padding-left: 10px;
-    padding-right: 10px;
-        
-    }
-    
-/*
-    #under{
-        display:none;
-    }
-    
-    #under:checked~#topbar{
-    display: block;
-    visibility: visible;
-   
-}
-*/
    
     li{
         text-align:left;
         width: 100px;
         color: black;
-        
-        
     }
     nav{
         
@@ -433,7 +408,7 @@ inspect resourses fonts, download and save and rename it,
     
     }
 }
-*/
+
 
 /*
 header{
