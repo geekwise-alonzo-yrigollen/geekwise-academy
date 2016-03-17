@@ -409,11 +409,13 @@ topbar{
 
 
 
+/*
 @media only screen and (max-width:1021px){
     
     .lines{
         margin-left:300px;
     }
+*/
 /*
     .geekwise{
         
@@ -421,6 +423,7 @@ topbar{
     }
 */
 }
+/*
 @media only screen and (max-width:900px){
     
     .fa{
@@ -475,6 +478,7 @@ topbar{
     .lines{
         margin-left: 250px;
     }
+*/
 /*
     .geekwise{
         transform: translateY(12.5rem);
@@ -486,16 +490,19 @@ topbar{
     }
 */
 }
+/*
 @media only screen and (max-width:600px){
     {
         margin-left:170px;
     }
+*/
 /*
     .geekwise{
         visibility: visible;
     }
 */
 }
+/*
 @media only screen and (max-width:480px){
     img{
         width:100%;
@@ -513,6 +520,7 @@ topbar{
         height: auto;
         
     }
+*/
 /*
     nav{
         display:flex;
@@ -520,15 +528,13 @@ topbar{
         flex-direction: 
     }
 */
-  
-}
 
 /*
   .geekwise{
         visibility: hidden;
 }
 */
-*/
+
 /*
 html, body{
     
