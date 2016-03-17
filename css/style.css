@@ -157,6 +157,19 @@ topbar{
     text-align: right;
     visibility: hidden;
 }
+
+span>img{
+    margin:0 auto;
+    display:block;
+}
+
+
+
+
+
+
+
+
 /*FLEX BOX BEGINS*/
 /*
 .parent {
