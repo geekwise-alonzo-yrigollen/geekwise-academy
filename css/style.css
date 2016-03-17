@@ -71,9 +71,10 @@ a:hover{
 }
 
 .geekwise{
+    
     position:inherit;
     top:30px;
-    max-width: 100%;
+    max-width:100%;
     
 }
 
@@ -139,18 +140,23 @@ topbar{
     
 }
 .fa{
+    
     float: right;
-    visibility: hidden;
+    display:block;
+    
 }
 .list{
+    
     float: right;
     text-align: right;
-    visibility: hidden;
+    display:block;
 }
 
 span>img{
+    
     margin:0 auto;
     display:block;
+    
 }
 
 /*FLEX BOX BEGINS*/
@@ -202,11 +208,7 @@ span>img{
 }
 */
 
-
-
-
 /**** flex-wrap ****/
-
 
 /*
 .example-wrap .parent {
@@ -219,12 +221,7 @@ span>img{
 }
 */
 
-
-
-
-
 /**** justify-content ****/
-
 
 /*
 .example-justify .parent {
@@ -237,12 +234,7 @@ span>img{
 }
 */
 
-
-
-
-
 /**** align-items ****/
-
 
 /*
 .example-align .parent {
@@ -258,12 +250,7 @@ span>img{
 }
 */
 
-
-
-
-
 /**** align-content ****/
-
 
 /*
 .example-align-content .parent {
@@ -278,12 +265,7 @@ span>img{
 }
 */
 
-
-
-
-
 /**** order ****/
-
 
 /*
 .example-order .parent {
@@ -300,13 +282,7 @@ span>img{
 }
 */
 
-
-
-
-
-
 /**** flex-grow ****/
-
 
 /*
 .example-grow .parent {
@@ -323,13 +299,7 @@ span>img{
 }
 */
 
-
-
-
-
-
 /**** flex-shrink ****/
-
 
 /*
 .example-shrink .parent {
@@ -346,13 +316,7 @@ span>img{
 }
 */
 
-
-
-
-
-
 /**** flex-basis ****/
-
 
 /*
 .example-basis .parent {
@@ -370,13 +334,7 @@ span>img{
 }
 */
 
-
-
-
-
-
 /**** align-self ****/
-
 
 /*
 .example-align-self .parent {
@@ -401,14 +359,11 @@ right click
 inspect resourses fonts, download and save and rename it,
 */
 
-
-
 /*FLEX BOX ENDS*/
-
 
 @media only screen and (max-width:1021px){
     
-    .lines{
+    {
         margin-left:300px;
     }
 }
@@ -446,15 +401,14 @@ inspect resourses fonts, download and save and rename it,
         width: 100px;
         color: black;
         
+        
     }
     nav{
         
-        visibility: hidden;
+        visibility:visible;
     }
 
-    .lines{
-        margin-left: 250px;
-    }
+    
 }
 @media only screen and (max-width:600px){
     .lines{
