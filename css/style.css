@@ -85,7 +85,7 @@ h2{
     text-align: center;
     margin: 40px auto 0px auto;
     color: white;
-    text-transform: uppercase;
+    text-transform:uppercase;
 }
 
 h3{
@@ -96,6 +96,7 @@ h3{
     font-weight:100;
     text-align: center;
     margin: 0 auto;
+    width:59%;
     color: white;
     font-weight: thin;
     text-transform: lowercase;
@@ -120,6 +121,7 @@ h3{
     width: calc(100%/3);
 }
 
+/*
 .lines{
     border-right: solid white .01rem;
     height: 90px;
@@ -129,6 +131,7 @@ h3{
     width: 1px;
     vertical-align: middle;
 }
+*/
 
 .center{
     width:23rem;
@@ -149,7 +152,6 @@ topbar{
 }
 .fa{
     float: right;
-    
     visibility: hidden;
 }
 .list{
