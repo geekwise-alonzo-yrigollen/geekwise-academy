@@ -33,6 +33,12 @@ header{
     text-align: center;
     margin:0 auto;
 }
+#signup{
+    margin:0 auto;
+    background-color:#f9da0c;
+    width:4%;
+    height: 2rem;
+}
 
 .table_data{
     text-align:center;
