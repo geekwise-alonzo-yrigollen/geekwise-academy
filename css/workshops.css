@@ -35,17 +35,24 @@ header{
 }
 
 .parent{
-    border-color:yellow;
+    border-color:#f9da0c;
     display:flex;
     justify-content: space-around;
     
     
 }
 .item{
+    
     line-height: 4.5rem;
     font-size: 2rem;
     width:80px;
 }
+.item a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
 .sign{
     height: 5rem;
     background-color:yellow;
