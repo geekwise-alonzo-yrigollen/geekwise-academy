@@ -13,6 +13,17 @@ body{
     text-align:center;
     font-family: sans-serif;
 }
+header{
+    margin:0 auto;
+    width:100%;
+    height: 4rem;
+    display:block;
+    background-color:green;
+}
+span>a{
+    width:2rem;
+    height:2rem;
+}
 
 #table{
     margin:0 auto;
