@@ -45,22 +45,17 @@ header{
     
 
 .item{
-<<<<<<< HEAD
+
     line-height: 5.5rem;
-=======
-    
     line-height: 4.5rem;
->>>>>>> refs/remotes/origin/master
     font-size: 2rem;
-<<<<<<< HEAD
     text-transform:uppercase;
     width:80px;
-=======
     padding:1%;
     width:90px;
->>>>>>> refs/remotes/origin/master
+
 }
-<<<<<<< HEAD
+
 .item:hover{
     background-color:#f9da0c;
 }
@@ -69,7 +64,6 @@ header{
     color:white;
     text-decoration:none;
 }
-=======
 .item a{
     color:white;
     text-decoration: none;
