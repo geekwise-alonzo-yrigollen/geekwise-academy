@@ -39,20 +39,24 @@ header{
     display:flex;
     justify-content: space-around;
     
-    
 }
 .item{
     
     line-height: 4.5rem;
     padding:1%;
     width:90px;
+    
 }
+
 .item a{
+    
     color:white;
     text-decoration: none;
     font-size:1.7rem;
-    text-transform: uppercase
+    text-transform: uppercase;
+    
 }
+
 .item:hover{
     background-color:#f9da0c;
 }
@@ -131,6 +135,7 @@ span p{
 }
 
 p > em{
+    
     float:right;
 }
 
@@ -139,7 +144,9 @@ p > em{
 /*RESOLVE ISSUE WITH WIDTH*/
 
 main{
+    
     width:72%;
+    height: 100%;
     display:block;
     margin:0 auto;
     
@@ -152,6 +159,7 @@ main{
     
 }
 p{
+    
     font-size: 1.2rem;
     float:left;
     text-align: left;
@@ -159,6 +167,7 @@ p{
 }
 
 h2{
+    
     width:100%;
     text-align: left;
     text-transform: uppercase;
@@ -191,10 +200,12 @@ b{
 }
 #third{
     width:auto;
+    height: 52rem;
 }
 #last{
     float:left;
     width: 100%;
+    height: auto;
     border-bottom:solid .03rem;
     text-align:left;
     text-transform: uppercase;
@@ -215,23 +226,45 @@ b{
     font-size: 1.8em;
     background-color:yellow;
 }
+
 .button:hover{
     color:white;
 }
+
 .fa{
     float: right;
     width: 3rem;
     height: 4rem;
     visibility: hidden;
 }
+
 .fa-bars{
     width:3rem;
     height: 3rem;
 }
+
 .list{
     float: right;
     text-align: right;
     visibility: hidden;
+}
+footer{
+    
+    margin:0 auto;
+    width:25%;
+    height:50%;
+    font-size:2rem;
+    background-color:yellow;
+}
+
+h3{
+    color:white;
+    margin:0 auto;
+    height: 3em;
+    text-transform: uppercase
+}
+h3:hover{
+    color:firebrick;
 }
 
 @media only screen and (max-width:1021px){
