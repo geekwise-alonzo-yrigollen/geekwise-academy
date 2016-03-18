@@ -58,11 +58,6 @@ header{
     background-color:#f9da0c;
 }
 
-/*THIS IS AN ADDITION TO CHECK GIT*/
-
-/*THIS IS THE NAV ELEMENTS*/
-
-
 .sign{
     height: 5rem;
     background-color:#f9da0c;
@@ -142,8 +137,10 @@ p > em{
 
 /*HEADER ENDS HERE*/
 
+/*RESOLVE ISSUE WITH WIDTH*/
+
 main{
-    width:85%;
+    width:72%;
     display:block;
     margin:0 auto;
     
