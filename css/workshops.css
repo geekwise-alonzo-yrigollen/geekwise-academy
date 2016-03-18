@@ -1,10 +1,12 @@
 html, body{
+    
     margin: 0 auto;
     padding:0;
     font-size:67.5%;
 }
 
 body{
+    
     box-sizing: border-box;
     margin:0;
     width:100%;
@@ -15,6 +17,7 @@ body{
 }
 
 header{
+    
     margin:0 auto;
     width:100%;
     height: 15rem;  
@@ -35,6 +38,7 @@ header{
 }
 
 .parent{
+    
     border-color:#f9da0c;
     display:flex;
     justify-content: space-around;
@@ -58,12 +62,16 @@ header{
 }
 
 .item:hover{
+    
     background-color:#f9da0c;
+    
 }
 
 .sign{
+    
     height: 5rem;
     background-color:#f9da0c;
+    
 }
 
 
@@ -182,6 +190,7 @@ h2{
     
 }
 #h2{
+    
     width:100%;
     text-align: left;
     text-transform: uppercase;
@@ -199,10 +208,13 @@ b{
     text-align: left;
 }
 #third{
+    
     width:auto;
     height: 52rem;
+    
 }
 #last{
+    
     float:left;
     width: 100%;
     height: auto;
@@ -213,11 +225,14 @@ b{
     border-bottom: solid .03rem;   
 }
 b{
+    
     font-size: 1.2rem;
     float:left;
     text-align: left;
+    
 }
 .button a{
+    
     color:black;
     margin:0 auto;
     width:20%;
@@ -225,28 +240,35 @@ b{
     text-transform: uppercase;
     font-size: 1.8em;
     background-color:yellow;
+    
 }
 
 .button:hover{
+    
     color:white;
+    
 }
 
 .fa{
-    float: right;
-    width: 3rem;
-    height: 4rem;
-    visibility: hidden;
+    
+    float:right;
+    width:3rem;
+    height:4rem;
+    visibility:hidden;
 }
 
 .fa-bars{
+    
     width:3rem;
-    height: 3rem;
+    height:3rem;
+    
 }
 
 .list{
-    float: right;
-    text-align: right;
-    visibility: hidden;
+    
+    float:right;
+    text-align:right;
+    visibility:hidden;
 }
 footer{
     
