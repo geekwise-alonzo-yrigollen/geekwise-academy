@@ -35,7 +35,7 @@ header{
 }
 
 .parent{
-    border-color:yellow;
+    border-color:#f9da0c;
     display:flex;
     justify-content: space-around;
     
@@ -45,11 +45,17 @@ header{
     
 
 .item{
+<<<<<<< HEAD
     line-height: 5.5rem;
+=======
+    
+    line-height: 4.5rem;
+>>>>>>> refs/remotes/origin/master
     font-size: 2rem;
     text-transform:uppercase;
     width:80px;
 }
+<<<<<<< HEAD
 .item:hover{
     background-color:#f9da0c;
 }
@@ -58,6 +64,14 @@ header{
     color:white;
     text-decoration:none;
 }
+=======
+.item a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+>>>>>>> refs/remotes/origin/master
 .sign{
     height: 5rem;
     background-color:#f9da0c;
