@@ -88,6 +88,8 @@ ul{
     list-style-type: none;
     display:block;
     margin:0 auto;
+    padding:1%;
+    line-height: 3rem;
     font-size: 4rem
     
 }
@@ -97,13 +99,15 @@ li{
     font-size: 2rem;
     padding:6px
 }
+li:hover{
+    background-color:yellow;
+}
 a{
     color:white;
     text-decoration: none;
 }
 a:hover{
     color:firebrick;
-    background-color:#f9da0c;
     transition: background 2s;
     
 }
