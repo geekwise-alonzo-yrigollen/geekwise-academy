@@ -52,8 +52,13 @@ header{
     line-height: 4.5rem;
 >>>>>>> refs/remotes/origin/master
     font-size: 2rem;
+<<<<<<< HEAD
     text-transform:uppercase;
     width:80px;
+=======
+    padding:1%;
+    width:90px;
+>>>>>>> refs/remotes/origin/master
 }
 <<<<<<< HEAD
 .item:hover{
@@ -69,6 +74,9 @@ header{
     color:white;
     text-decoration: none;
     text-transform: uppercase
+}
+.item:hover{
+    background-color:#f9da0c;
 }
 
 >>>>>>> refs/remotes/origin/master
