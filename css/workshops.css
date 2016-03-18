@@ -45,17 +45,21 @@ header{
     
     line-height: 4.5rem;
     font-size: 2rem;
-    width:80px;
+    padding:1%;
+    width:90px;
 }
 .item a{
     color:white;
     text-decoration: none;
     text-transform: uppercase
 }
+.item:hover{
+    background-color:#f9da0c;
+}
 
 .sign{
     height: 5rem;
-    background-color:yellow;
+    background-color:#f9da0c;
 }
 
 
