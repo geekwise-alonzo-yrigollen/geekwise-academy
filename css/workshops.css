@@ -39,16 +39,28 @@ header{
     display:flex;
     justify-content: space-around;
     
-    
 }
+    
+/*   THIS PAGE NAV IS FLEXBOX */
+    
+
 .item{
-    line-height: 4.5rem;
+    line-height: 5.5rem;
     font-size: 2rem;
+    text-transform:uppercase;
     width:80px;
+}
+.item:hover{
+    background-color:#f9da0c;
+}
+
+.item a{
+    color:white;
+    text-decoration:none;
 }
 .sign{
     height: 5rem;
-    background-color:yellow;
+    background-color:#f9da0c;
 }
 
 
