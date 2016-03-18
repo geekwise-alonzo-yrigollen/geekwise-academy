@@ -48,9 +48,12 @@ header{
 
     line-height: 5.5rem;
     line-height: 4.5rem;
+<<<<<<< HEAD
     font-size: 2rem;
     text-transform:uppercase;
     width:80px;
+=======
+>>>>>>> refs/remotes/origin/master
     padding:1%;
     width:90px;
 
@@ -67,7 +70,7 @@ header{
 .item a{
     color:white;
     text-decoration: none;
-    font-size:2rem;
+    font-size:1.7rem;
     text-transform: uppercase
 }
 .item:hover{
