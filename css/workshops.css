@@ -73,6 +73,7 @@ header{
 .item a{
     color:white;
     text-decoration: none;
+    font-size:2rem;
     text-transform: uppercase
 }
 .item:hover{
