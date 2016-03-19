@@ -41,9 +41,10 @@ header{
     
     border-color:#f9da0c;
     display:flex;
-    justify-content: space-around;
+    justify-content:space-between;
     
 }
+<<<<<<< HEAD
     
 /*   THIS PAGE NAV IS FLEXBOX */
     
@@ -51,6 +52,12 @@ header{
 .item{
 
     line-height: 5.5rem;
+=======
+
+.item{
+    
+    
+>>>>>>> refs/remotes/origin/master
     line-height: 4.5rem;
 <<<<<<< HEAD
     font-size: 2rem;
@@ -91,6 +98,7 @@ header{
     
 }
 .active a{
+    
     color:yellow;
 }
 
