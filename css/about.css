@@ -41,6 +41,11 @@ nav{
     float:left;
 
 }
+#imag{
+    width:13rem;
+    height: 5rem;
+    padding:24px;
+}
 
 ul{
     list-style-type: none;
@@ -72,10 +77,10 @@ a:hover{
     width:7.5rem;
     padding:1%;
     background-color:#f9da0c;
-    margin-left: 53rem;
-    transform:translateY(9rem);
-    line-height: 4rem;
-    font-size: 2rem;
+    margin-left:53rem;
+    transform:translateY(4em);
+    line-height:4rem;
+    font-size:2rem;
     color:firebrick;
  
 }
@@ -96,29 +101,37 @@ h1{
 }
 
 main{
-    height: 80rem;
-    width:100rem;
+    height:80rem;
+    width:100%;
+    padding:3em;
     background-color:firebrick;
 }
 
 section{
     display:block;
+    text-align:center;
     margin:0 auto;
     width:100%;
+    height:80rem;
     
 }
 #columnLeft{
     margin:0 auto;
-    width:calc(100%/2);
+    width:calc(85%/2);
     float:left;
-    text-align: left;
+    padding:6em;
+    text-align:left;
     display:block;
+    font-size:1em;
 }
 #columnRight{
     margin:0 auto;
-    text-align: left;
-    width:calc(100%/2);
+    text-align:left;
+    width:calc(85%/2);
+    height:auto;
+    padding:6em;
     float:right;
+    font-size:1em;
     display:block;
 }
 
