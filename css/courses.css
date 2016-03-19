@@ -42,11 +42,11 @@ header{
     
     
 }
-img{
+#imag{
+    
     margin:0 auto;
     display:block;
-    text-align: left;
-    transform:translateX(-22rem);
+    text-align:left;  transform:translateX(-12rem);
 }
 
 nav{
@@ -88,6 +88,10 @@ a:hover{
     color:firebrick;
     padding:1.3rem;
     background-color:#f9da0c;
+}
+
+.active_page a{
+    color:#f9da0c;
 }
 
 h1{
