@@ -85,10 +85,13 @@ header{
     
 }
 
-.item:hover{
+.item a:hover{
     
-    background-color:#f9da0c;
+    color:yellow;
     
+}
+.active a{
+    color:yellow;
 }
 
 <<<<<<< HEAD
