@@ -34,6 +34,7 @@ header{
     width:15rem;
     height:5rem;
     float:left;
+    transform:translateX(-11em);
     
 }
 
@@ -42,23 +43,24 @@ header{
     border-color:#f9da0c;
     display:flex;
     justify-content:space-between;
-    
+    width:97em;
 }
 
 .item{
     
-    
     line-height:4.5rem;
-    padding:1%;
-    width:90px;
-    
+
+}
+.sign{
+    background-color:#f9da0c;
 }
 
 .item a{
     
-    color:white;
+    color:#fff;
     text-decoration:none;
-    font-size:1.7rem;
+    font-size:1.4rem;
+    font-weight:600;
     text-transform:uppercase;
     
 }
@@ -73,12 +75,14 @@ header{
     color:#f9da0c;
 }
 
-.sign{
-    
-    height:5rem;
+.sign a{
+    color:#7a1501;
     background-color:#f9da0c;
-    
 }
+.sign a:hover{
+    color:#7a1501;
+}
+
 
 span p{
     

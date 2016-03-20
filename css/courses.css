@@ -39,6 +39,7 @@ header{
     width:15rem;
     height:5rem;
     float:left;
+    transform:translateY(1.3em);
     
     
 }
@@ -47,7 +48,7 @@ header{
     margin:0 auto;
     display:block;
     text-align:left;  
-    transform:translateX(-12rem);
+    transform:translateX(-8.5rem);
 }
 
 nav{
@@ -56,7 +57,7 @@ nav{
     display:block;
     margin:0 auto;
     text-align:left;
-    
+    transform:translateY(-1.3em)
 }
 
 ul{
@@ -70,13 +71,14 @@ ul{
 li{
     margin:0 auto;
     display:inline-block;
-    font-size:2rem;
-    padding:9px;
+    font-size:1.5rem;
+    font-weight:600;
 }
 
 a{
     color:#ffffff;
     text-decoration:none;
+    text-transform:uppercase;
 }
 
 a:hover{
@@ -98,9 +100,9 @@ a:hover{
 h1{
     color:white;
     margin:0 auto;
-    text-align: left;
+    text-align:left;
     float:left;
-    padding-left:9rem;
+    padding-left:18rem;
     width:70%;
     transform:translateY(6rem);
 }
@@ -109,14 +111,30 @@ h1{
 
 
 #geekwise{
-    width:95%;
+    width:88%;
     margin:0 auto;
     display:block;
     text-align:center;
-    padding:2em;
-    line-height:1.3em;
-    font-size:1.4rem;
+    line-height:1.4em;
+    font-size:1.3rem;
+    text-align:left;
+    transform:translateY(-4.5em);
     
+}
+#align_left{
+    width:75%;
+    margin:0 auto;
+    display:block;
+    text-align:center;
+    line-height:1.4em;
+    font-size:1.3rem;
+    text-align:left;
+    float:left;
+    transform:translateX(6.4em);
+    
+}
+#topic{
+    padding-left:1.4em;
 }
 span p{
     

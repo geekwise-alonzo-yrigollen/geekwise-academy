@@ -77,7 +77,7 @@ a{
 a:hover{
     
     color:#7a1501;
-    background-color:#f9da0c;
+/*    background-color:#f9da0c;*/
     transition:background 2s;
     
 }
