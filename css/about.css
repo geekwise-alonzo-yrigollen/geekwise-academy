@@ -29,14 +29,14 @@ nav{
     height:4rem;
     display:block;
     margin:0 auto;
-    
+    transform:translateX(3em);
+    font-size:2em;
 }
 
 .logo{
     
     margin:0 auto;
     padding:1rem;
-    font-size:3rem;
     display:block;
     float:left;
 
@@ -44,7 +44,8 @@ nav{
 #imag{
     width:13rem;
     height:5rem;
-    padding:24px;
+    transform:translateY(-.77em);
+    
 }
 
 ul{
@@ -57,18 +58,23 @@ ul{
 li{
     margin:0 auto;
     display:inline-block;
-    font-size:2rem;
-    padding:6px
+    font-size:1.5rem;
 }
 a{
     color:black;
     text-decoration:none;
+    font-weight:600;
+    text-transform:uppercase;
+    
 }
 a:hover{
     color:#7a1501;
 /*    background-color:#f9da0c;*/
     transition:background 2s;
     
+}
+#active_about a{
+    color:#7a1501;
 }
 #active > a{
     

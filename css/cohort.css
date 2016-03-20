@@ -25,16 +25,24 @@ header{
     transform:translateY(-8rem);
     
 }
+.logo a img{
+    
+    margin:0 auto;
+    display:block;
+    float:left;
+    padding-left:35em;
+    transform:translateY(3em);
+}
 
 nav{
     
     display:block;
     margin:0 auto;
-    width:83%;
     display:block;
-    transform:translateY(-1.2em);
+    transform:translateX(-9em);
     background-color:white;
 
+    
 }
 
 ul{
@@ -48,8 +56,9 @@ ul{
     margin:0 auto;
     height:5rem;
     display:inline-block;
-    font-size:2rem;
-    line-height:5.3rem;
+    font-size:1.6rem;
+    font-weight:600;
+    transform:translateX(-6.7em);
 
 }
 ul>li>a{
@@ -57,6 +66,8 @@ ul>li>a{
     padding:.5rem;
     line-height:4.3rem;
     text-decoration:none;
+    text-transform:uppercase;
+ 
 }
 ul>li>a:hover{
     color:#7a1501;
