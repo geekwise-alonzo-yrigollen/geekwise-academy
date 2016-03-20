@@ -11,7 +11,7 @@ body{
     height: 100%;
     background-color:#7a1501;
     text-align:center;
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 
 header{
@@ -48,7 +48,7 @@ li{
     
     margin:0 auto;
     display:inline-block;
-    font-size: 2rem;
+    font-size:2rem;
     padding:.8%;
         
 }
@@ -73,7 +73,7 @@ a:hover{
 }
 
 .active{
-    height: 4rem;
+    height:4rem;
     background-color:#f9da0c;
     
 }
@@ -81,16 +81,16 @@ a:hover{
     color:#7a1501;
 }
 h1{
-    text-transform: uppercase;
-    font-size: 3.6rem;
+    text-transform:uppercase;
+    font-size:3.6rem;
     transform:translateY(5rem);
     
 }
 main{
     color:white;
-    font-size: 2.2rem;
+    font-size:2.2rem;
     width:70%;
-    text-align: center;
+    text-align:center;
     margin:0 auto;
     
 }
@@ -100,7 +100,7 @@ main{
 
 }
 .pics>.aplus>a{
-    display: inline-block;
+    display:inline-block;
     margin:0 auto;
     width:calc(88%/4);
 }
