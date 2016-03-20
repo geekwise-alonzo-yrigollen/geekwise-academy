@@ -55,7 +55,7 @@ nav{
 }
 
 ul{
-    list-style-type: none;
+    list-style-type:none;
     display:block;
     margin:0 auto;
     height:6rem;
@@ -67,7 +67,7 @@ ul{
 li{
     margin:0 auto;
     display:inline-block;
-    font-size:2rem;
+    font-size:1.55rem;
     padding:6px
 }
 a{
@@ -81,8 +81,8 @@ a{
 a:hover{
     
     color:#7a1501;
-    background-color:#f9da0c;
-    transition:background 2s;
+/*    background-color:#f9da0c;*/
+/*    transition:background 2s;*/
     
 }
 .active_team a{
@@ -112,25 +112,26 @@ main{
 #main{
     margin:0 auto;
     display:block;
-    width:calc(100%/2);
-    float:left;
+    text-align: center;    
+    width:100%;
+    
 }
 
 #nar{
-    margin:0 auto;
-    width:calc(100%/2);
-    width:33rem;
-    display:inline-block;
-    height:22rem;
+    color:#fff;
+    margin-left:11em;
+    width:43rem;
+    text-align:center;
+    display:inline;
+    text-align:left;
     float:left;
 }
 
 #ceo{
     margin:0 auto;
-    width:calc(100%/2);
-    width:33rem;
-    display:inline-block;
-    height: 42rem;
-    transform:translateX(82%);
-    float:right;
+    padding-right:23rem;
+    width:29rem;
+    height:33rem;
+    transform:translateY(3rem);
+
 }
