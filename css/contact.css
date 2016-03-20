@@ -68,25 +68,27 @@ main{
 .logo{
     display:block;
     margin:1%;
-    width:35rem;
-    height: 5rem;
+    width:30rem;
     float:left;
+    transform:translateX(-3em);
     
 }
 #imag{
+    width:14rem;
     float:right;
 }
 nav{
     
-    height: 4rem;
+    width:70%;
     display:block;
     margin:0 auto;
+    font-weight: 600;
     
 }
 
 ul{
     list-style-type: none;
-    display:block;
+    display:inline;
     margin:0 auto;
     padding:1%;
     line-height: 3rem;
@@ -96,24 +98,32 @@ ul{
 li{
     margin:0 auto;
     display:inline-block;
-    font-size: 2rem;
+    font-size:1.5rem;
     padding:6px
 }
-li:hover{
-    background-color:yellow;
-}
+
 a{
     color:white;
+<<<<<<< HEAD
     text-decoration: none;
     text-transform: uppercase;
+=======
+    text-decoration:none;
+    text-transform:uppercase;
+>>>>>>> refs/remotes/origin/master
 }
 a:hover{
-    color:firebrick;
+    color:#f9da0c;
     transition: background 2s;
     
 }
-.active{
-    height:2rem;
+#active_contact a{
+    color:#f9da0c;
+}
+
+.active a{
+    color:firebrick;
+    padding:1.3rem;
     background-color:#f9da0c;
 }
 footer{
