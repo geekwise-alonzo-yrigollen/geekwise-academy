@@ -50,6 +50,7 @@ nav{
     height:4rem;
     display:block;
     margin:0 auto;
+    transform:translateY(-.9em);
     
 }
 
@@ -71,7 +72,11 @@ li{
 }
 a{
     color:black;
+    font-size:1.6rem;
+    font-weight:600;
+    text-transform:uppercase;
     text-decoration:none;
+   
 }
 a:hover{
     
@@ -80,9 +85,13 @@ a:hover{
     transition:background 2s;
     
 }
-.active{
-    
+.active_team a{
+    color:#7a1501;
+}
+.active a{
+    color:#7a1501;
     height:2rem;
+    padding:1.5rem;
     background-color:#f9da0c;
 }
 
