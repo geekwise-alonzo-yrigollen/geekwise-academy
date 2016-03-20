@@ -1,28 +1,28 @@
 html, body{
     
-    margin: 0 auto;
+    margin:0 auto;
     padding:0;
     font-size:67.5%;
 }
 
 body{
     
-    box-sizing: border-box;
+    box-sizing:border-box;
     margin:0;
     width:100%;
-    height: 100%;
+    height:100%;
     background-color:white;
     text-align:center;
-    font-family: sans-serif;
+    font-family:sans-serif;
 }
 
 header{
     
     margin:0 auto;
     width:100%;
-    height: 15rem;  
+    height:15rem;  
     display:block;
-    background-color:firebrick;
+    background-color:#7a1501;
  
 }
 
@@ -32,8 +32,8 @@ header{
     margin:1rem;
     padding-left:25rem;
     width:15rem;
-    height: 5rem;
-    float: left;
+    height:5rem;
+    float:left;
     
 }
 
@@ -48,7 +48,7 @@ header{
 .item{
     
     
-    line-height: 4.5rem;
+    line-height:4.5rem;
     padding:1%;
     width:90px;
     
@@ -57,15 +57,15 @@ header{
 .item a{
     
     color:white;
-    text-decoration: none;
+    text-decoration:none;
     font-size:1.7rem;
-    text-transform: uppercase;
+    text-transform:uppercase;
     
 }
 
 .item a:hover{
     
-    color:yellow;
+    color:#f9da0c;
     
 }
 .active_page a {
@@ -75,75 +75,20 @@ header{
 
 .sign{
     
-    height: 5rem;
+    height:5rem;
     background-color:#f9da0c;
     
 }
-
-
-/*
-    height: 5rem;
-    margin:0 auto;
-    text-align: left;
-*/
-    
-
-
-/*
-ul{
-    list-style-type: none;
-    display:block;
-    margin:0 auto;
-    font-size: 4rem
-    
-}
-*/
-
-/*
-li{
-    margin:0 auto;
-    display:inline-block;
-    font-size: 2rem;
-    padding:9px
-}
-*/
-
-/*
-a{
-    color:#ffffff;
-    text-decoration: none;
-}
-*/
-
-/*
-a:hover{
-    color:#f9da0c;
-*/
-/*    background-color:#f9da0c;*/
-/*
-    transition: background 2s;
-    
-}
-*/
-
-/*
-.active{
-    
-    color:firebrick;
-    height:2rem;
-    background-color:#f9da0c;
-}
-*/
 
 span p{
     
     margin:0 auto;
     width:83rem;
-    height: 3rem;
-    padding-right: 2rem;
+    height:3rem;
+    padding-right:2rem;
     font-size: 1.5rem;
     color:white;
-    text-transform: uppercase;
+    text-transform:uppercase;
     float:left;
     transform:translateY(5rem);
 }
@@ -155,12 +100,12 @@ p > em{
 
 /*HEADER ENDS HERE*/
 
-/*RESOLVE ISSUE WITH WIDTH*/
+/*RESOLVE ISSUE WITH WIDTH, main text was at 100% reduced to 72%*/
 
 main{
     
     width:72%;
-    height: 100%;
+    height:100%;
     display:block;
     margin:0 auto;
     
@@ -174,67 +119,67 @@ main{
 }
 p{
     
-    font-size: 1.2rem;
+    font-size:1.2rem;
     float:left;
-    text-align: left;
+    text-align:left;
 
 }
 
 h2{
     
     width:100%;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    border-bottom: solid .03rem;
+    text-align:left;
+    text-transform:uppercase;
+    font-size:1.4rem;
+    border-bottom:solid .03rem;
 }
 #second{
     
     display:block;
     margin:0 auto;
-    height: auto;
+    height:auto;
     
 }
 #h2{
     
     width:100%;
-    text-align: left;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    border-bottom: solid .03rem;  
+    text-align:left;
+    text-transform:uppercase;
+    font-size:1.4rem;
+    border-bottom:solid .03rem;  
 }
 p{
     width:100%;
-    text-align: left;
+    text-align:left;
 }
 
 b{
-    font-size: 1.2rem;
+    font-size:1.2rem;
     float:left;
-    text-align: left;
+    text-align:left;
 }
 #third{
     
     width:auto;
-    height: 52rem;
+    height:52rem;
     
 }
 #last{
     
     float:left;
-    width: 100%;
-    height: auto;
+    width:100%;
+    height:auto;
     border-bottom:solid .03rem;
     text-align:left;
-    text-transform: uppercase;
-    font-size: 1.4rem;
-    border-bottom: solid .03rem;   
+    text-transform:uppercase;
+    font-size:1.4rem;
+    border-bottom:solid .03rem;   
 }
 b{
     
-    font-size: 1.2rem;
+    font-size:1.2rem;
     float:left;
-    text-align: left;
+    text-align:left;
     
 }
 .button a{
@@ -243,8 +188,8 @@ b{
     margin:0 auto;
     width:20%;
     padding:1rem;
-    text-transform: uppercase;
-    font-size: 1.8em;
+    text-transform:uppercase;
+    font-size:1.8em;
     background-color:yellow;
     
 }
@@ -289,12 +234,15 @@ footer{
 h3{
     color:black;
     margin:0 auto;
-    height: 3em;
-    text-transform: uppercase
+    height:3em;
+    text-transform:uppercase
 }
 h3:hover{
     color:black;
 }
+
+/*COMMENCE MEDIA HERE*/
+
 
 @media only screen and (max-width:1021px){
     .parent{
@@ -305,7 +253,7 @@ h3:hover{
         
     }
     #bars{
-        visibility: hidden;
+        visibility:hidden;
     }
 }
 @media only screen and (max-width:900px){
@@ -313,23 +261,23 @@ h3:hover{
         display:none;
     }
     .logo{
-        visibility: hidden;
+        visibility:hidden;
     }
     .fa{
         width:12rem;
         height: 5rem;
-        visibility: visible;
-        color: gray;
+        visibility:visible;
+        color:gray;
     }
   
     .list{
     width:200px;
     height:auto;
-    font-size: 28px;
+    font-size:28px;
     border: lightgrey solid .1rem;
-    border-radius: .5rem;
-    padding-left: 10px;
-    padding-right: 10px;
+    border-radius:.5rem;
+    padding-left:10px;
+    padding-right:10px;
     
         
     }
@@ -345,8 +293,8 @@ h3:hover{
     }
     
     #bars:checked~#topbar{
-    display: block;
-    visibility: visible;
+    display:block;
+    visibility:visible;
    
 }
     #ch{
@@ -356,149 +304,18 @@ h3:hover{
    
     li{
         text-align:left;
-        width: 100px;
-        color: black;
+        width:100px;
+        color:black;
         
     }
     nav{
         
-        visibility: hidden;
+        visibility:hidden;
     }
 
     .lines{
-        margin-left: 250px;
+        margin-left:250px;
     }
-    
-/*
-    margin:0 auto;
-    width:100%;
-    height:4rem;
-    text-align: center;
-    transform:translateY(53rem);
-    transform:translateX(33rem);
-    font-size: 1.5rem;text-align: center;
-*/
-    
-}
-
-
-
-
-
-/*FIRST ARTICLE*/
-
-/*
-.text{
-    
-    width:75%;
-    margin:0 auto;
-    display:block;
-    
-}
-
-.h2{
-
-    
-    margin-top: 53px;
-    padding:none;
-    text-transform: uppercase;
-    margin:0 auto;
-    display:block;
-    float:left;
-    font-size: 1.5rem
-}
-
-h3{
-    
-    margin:0 auto;
-    display:block;
-    float:left;
-    text-align: left;
-    transform:translateY(5rem);
-    transform:translateX(-18rem);
-    font-size: 1rem;
-}
-
-#h3{
-    margin:0 auto;
-    font-size: 1rem;
-    text-align:left;
-    transform:translateY(9rem);
-}
-
-
-.paragraphs{
-    padding:.4%;
-    margin:0 auto;
-    float:left;
-    font-size: 1.2rem;
-    text-align: left;
-    
-}
-
-
-#aint{
-    text-align: left;
-    margin:0 auto;
-    display:block;
-    transform:translateY(1.5em)
-}
-
-
-
-section{
-    line-height: 2.3rem;
-    display:inline;
-   
-}
-
-.textBottom{
-    
-    width:75%;
-    margin:0 auto;
-    display:block
-}
-*/
-
-
-/*
-.button{
-    margin:0 auto;
-    display:block;
-    width:28rem;
-    padding:3%;
-    line-height:3.3rem;
-    font-size: 2rem;
-    transform:translateY(243%);
-    border-radius: 19%;
-    background-color:#f9da0c;
-}
-
-
-.button:hover{
-    
-    border: solid .05em firebrick;
-    background-color:white;
-    transition: background 1.3s;
-}
-
-.button > a{
-    
-    color:firebrick;
-    margin:0 auto;
-    transform:translateY(-9.2rem);
-    float:left;
-    
-}
-
-.button > a:hover{
-    
-    background-color:firebrick;
-    color:#f9da0c;
-    border-radius: 19%;
-    transition: background 1.3s;
-}
-*/
 
 #owl{
     margin:0 auto;
@@ -506,15 +323,3 @@ section{
     float:right;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
