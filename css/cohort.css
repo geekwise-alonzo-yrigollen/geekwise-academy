@@ -139,16 +139,17 @@ h2{
     width:100%;
     background-color:#fff;
     text-align:left;
-}
-#demo{
-    width:100%;
     display:block;
-    
 }
-.cohort_img img{
+
+.cohort_img{
     width:calc(100%/4);
     padding:1em;
-    float:left;
+    display:inline-block;
+
+}
+.collapse img{
+    width:100%;
     
 }
 h5{
@@ -163,6 +164,16 @@ h5{
     width:26.5rem;
     display:block;
 }
+#red{
+    display:inline-block;
+    margin:0 auto;
+    width:100%/4;
+}
+#two{
+    display:block;
+    float:left;
+}
+
 
 
 
