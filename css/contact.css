@@ -30,13 +30,8 @@ main{
         background-repeat: no-repeat;
         width:100%;
         height:100%;
-    }
-/*
-    background-image: url(http://i.imgur.com/bXtIcQ2.jpg);
-    background-repeat: no-repeat;
-*/
-        
 }
+
 
 #background_image{
     
@@ -47,6 +42,7 @@ main{
     transform:translateY(45rem);
 
 }
+
 .text_menu{
     background-color:white;
     margin:40%;
