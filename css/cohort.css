@@ -118,16 +118,21 @@ ol li{
 
 
 /*COHORT PIC BEGINS HERE*/
-.cohort_image img{
-    width:30%;
-}
+
 h2{
     color:#fff;
+    
 }
-.panel-body img{
+.panel-collapse{
+    width:100%;
+    height:auto;
+    
+}
+.panel-body{
     width:calc(100%/4);
-    height:30%;
+    height:auto;
     display:block;
+    float:left;
     background-repeat:no-repeat;
 }
 
