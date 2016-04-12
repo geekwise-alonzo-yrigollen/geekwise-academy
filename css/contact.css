@@ -42,19 +42,20 @@ main{
     
     margin:0 auto;
     display:block;
-    width:58%;
-    height:auto;
-    transform:translateY(45rem);
+    width:33%;
+    transform:translateY(-40rem);
 
 }
 
 .text_menu{
     background-color:white;
     margin:40%;
-    width:35%;
+    width:20%;
     font-size:3rem;
-    padding-top:2rem;
-    padding-bottom:5px;
+    padding-top:3rem;
+    transform:translateY(-33em);
+    
+    
 }
 
 
