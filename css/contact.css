@@ -107,6 +107,7 @@ li{
 a{
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     color:white;
 <<<<<<< HEAD
     text-decoration: none;
@@ -117,6 +118,9 @@ a{
 >>>>>>> refs/remotes/origin/master
 =======
     color:white;
+>>>>>>> refs/remotes/origin/master
+=======
+    color:darkorange;
 >>>>>>> refs/remotes/origin/master
     text-decoration:none;
     text-transform:uppercase;
