@@ -39,12 +39,12 @@ main{
     height:30%;
 }
 
-.background_image span img{
+#bitwise img{
     
     margin:0 auto;
     display:block;
     width:23%;
-    transform:translateY(-10rem);
+  transform:translateY(-40rem);
 
 }
 
